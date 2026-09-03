@@ -93,7 +93,7 @@ const Home = () => {
             </div>
 
             {/* Right Content - Cards */}
-            <div className="flex-1 flex flex-col sm:flex-row gap-4 w-full h-auto sm:h-[420px]">
+            <div className="flex-1 flex flex-col sm:flex-row gap-4 w-full h-auto">
               
               {/* Card 1: Logo & Slogan */}
               <FadeIn delay={0.4} direction="left" className="flex-1 h-full">
@@ -108,10 +108,10 @@ const Home = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <p className="text-xl sm:text-2xl font-serif text-sr12-burgundy">
+                    <p className="text-lg sm:text-xl font-serif text-sr12-burgundy">
                       Beauty is not a Dream,
                     </p>
-                    <p className="text-2xl sm:text-3xl font-serif italic text-sr12-burgundy flex items-center justify-center gap-2">
+                    <p className="text-xl sm:text-2xl font-serif italic text-sr12-burgundy flex items-center justify-center gap-2">
                       Bring Back Your Beauty 
                       <Heart size={20} className="inline text-sr12-pink/80" fill="currentColor" />
                     </p>
