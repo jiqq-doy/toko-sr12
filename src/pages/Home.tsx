@@ -4,7 +4,8 @@ import ProductCard from '../components/ProductCard';
 import { 
   MessageCircle, ArrowRight, Sparkles, Zap, 
   CheckCircle2, Package, Headphones,
-  Droplet, Smile, Wind, Hand, Sun, Scissors, Sparkle, Leaf, CupSoda, ShieldPlus
+  Droplet, Smile, Wind, Hand, Sun, Scissors, Sparkle, Leaf, CupSoda, ShieldPlus,
+  ShoppingBag, Heart
 } from 'lucide-react';
 import { STORE_CONFIG } from '../config/store';
 import FadeIn from '../components/animations/FadeIn';
@@ -93,48 +94,105 @@ const Home = () => {
 
             {/* Right Content - Cards */}
             <div className="flex-1 flex flex-col sm:flex-row gap-4 w-full h-auto sm:h-[420px]">
-              {/* Card 1: Logo */}
-              <FadeIn delay={0.4} direction="left" className="flex-1">
-                <div className="h-full bg-white/60 backdrop-blur-sm border border-white/50 rounded-3xl p-8 flex flex-col items-center justify-center text-center shadow-lg relative overflow-hidden">
-                  <img src="/logo.png" alt="SR12 Skin Care" className="w-56 h-auto object-contain" />
-                  <p className="mt-12 text-sm text-sr12-burgundy/80 px-4 font-medium">
-                    Perawatan kulit dan tubuh dari rangkaian produk SR12.
-                  </p>
+              
+              {/* Card 1: Logo & Slogan */}
+              <FadeIn delay={0.4} direction="left" className="flex-1 h-full">
+                <div className="h-full bg-white/70 backdrop-blur-sm border border-white/60 rounded-[2rem] p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg relative overflow-hidden">
+                  <img src="/logo.png" alt="SR12 Skin Care" className="w-48 sm:w-56 h-auto object-contain mb-8" />
+                  
+                  {/* Decorative Divider */}
+                  <div className="flex items-center justify-center w-full gap-3 mb-8">
+                    <div className="h-[1px] w-12 bg-sr12-burgundy/40"></div>
+                    <Leaf className="text-sr12-burgundy/70" size={16} />
+                    <div className="h-[1px] w-12 bg-sr12-burgundy/40"></div>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <p className="text-xl sm:text-2xl font-serif text-sr12-burgundy">
+                      Beauty is not a Dream,
+                    </p>
+                    <p className="text-2xl sm:text-3xl font-serif italic text-sr12-burgundy flex items-center justify-center gap-2">
+                      Bring Back Your Beauty 
+                      <Heart size={20} className="inline text-sr12-pink/80" fill="currentColor" />
+                    </p>
+                  </div>
                 </div>
               </FadeIn>
               
               {/* Card 2: Promo */}
-              <FadeIn delay={0.5} direction="left" className="flex-1">
-                <div className="h-full bg-white/60 backdrop-blur-sm border border-white/50 rounded-3xl p-6 flex flex-col items-center justify-between text-center shadow-lg relative overflow-hidden">
-                  <div className="w-full flex justify-end items-start">
-                    <div className="bg-sr12-burgundy text-white text-[10px] font-bold px-3 py-1 rounded-full flex items-center gap-1">
-                      <Zap size={12} fill="currentColor" /> FLASH SALE
+              <FadeIn delay={0.5} direction="left" className="flex-1 h-full">
+                <div className="h-full bg-white/70 backdrop-blur-sm border border-white/60 rounded-[2rem] p-5 sm:p-6 flex flex-col items-center justify-between text-center shadow-lg relative overflow-hidden">
+                  
+                  <div className="w-full relative z-10 flex flex-col items-center flex-1 justify-start pt-2">
+                    <h3 className="text-[11px] font-bold text-sr12-burgundy tracking-[0.2em] uppercase mb-4">Promo Spesial Untukmu</h3>
+                    
+                    {/* Small Divider */}
+                    <div className="flex items-center justify-center w-full gap-2 mb-6">
+                      <div className="h-[1px] w-6 bg-sr12-burgundy/30"></div>
+                      <Leaf className="text-sr12-burgundy/50" size={12} />
+                      <div className="h-[1px] w-6 bg-sr12-burgundy/30"></div>
+                    </div>
+
+                    {/* Badge Area */}
+                    <div className="relative w-40 h-40 flex items-center justify-center mb-6">
+                      {/* Pink blob background */}
+                      <div className="absolute inset-0 bg-sr12-lightPink/80 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] scale-[1.3] rotate-12 blur-sm"></div>
+                      <div className="absolute inset-0 bg-sr12-pink/30 rounded-[60%_40%_30%_70%/50%_60%_50%_40%] scale-[1.2] -rotate-12 blur-sm"></div>
+                      
+                      {/* Petals / Leaves decorations */}
+                      <div className="absolute -left-8 bottom-0 text-sr12-pink rotate-45 opacity-70"><Leaf size={32} fill="currentColor" /></div>
+                      <div className="absolute -right-4 -top-4 text-sr12-pink -rotate-12 opacity-60 scale-75"><Leaf size={24} fill="currentColor" /></div>
+
+                      {/* Scalloped Circle Badge */}
+                      <div className="relative w-32 h-32 flex flex-col items-center justify-center z-10">
+                        {/* Star/Scallop shape using rotated squares */}
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-0"></div>
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[22.5deg]"></div>
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-45"></div>
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[67.5deg]"></div>
+                        
+                        {/* Inner Circle to make it look scalloped */}
+                        <div className="absolute inset-1 bg-sr12-burgundy rounded-full border border-white/20"></div>
+
+                        {/* Text inside badge */}
+                        <div className="relative z-10 text-white flex flex-col items-center">
+                          <span className="text-[10px] font-bold tracking-widest uppercase mb-1">Diskon</span>
+                          <div className="flex items-start">
+                            <span className="text-5xl font-serif font-bold italic leading-none">20</span>
+                            <span className="text-2xl font-serif font-bold italic mt-1">%</span>
+                          </div>
+                          {/* Mini decorative leaves inside badge */}
+                          <div className="flex gap-1 mt-2">
+                            <Leaf size={8} className="rotate-[120deg]" fill="currentColor" />
+                            <Leaf size={10} className="rotate-0" fill="currentColor" />
+                            <Leaf size={8} className="rotate-[240deg]" fill="currentColor" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   
-                  <div className="w-full flex-1 flex flex-col items-center justify-center py-4">
-                    <h3 className="text-[11px] font-bold text-sr12-burgundy tracking-[0.2em] uppercase mb-6">Promo Spesial Untukmu</h3>
-                    
-                    <div className="relative w-28 h-28 flex items-center justify-center mb-6">
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-0"></div>
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-45"></div>
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-12"></div>
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-24"></div>
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[36deg]"></div>
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[60deg]"></div>
-                      <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[72deg]"></div>
-                      <div className="relative z-10 text-white text-4xl font-serif font-bold italic pr-1">20%</div>
+                  {/* Bottom Action Area */}
+                  <div className="w-full relative z-10 space-y-3">
+                    {/* Purchase info pill */}
+                    <div className="bg-white/80 border border-sr12-burgundy/10 rounded-2xl p-3 flex items-center gap-4">
+                      <div className="w-10 h-10 rounded-xl bg-sr12-lightPink/50 flex items-center justify-center shrink-0 border border-sr12-pink/20">
+                        <ShoppingBag size={20} className="text-sr12-burgundy" />
+                      </div>
+                      <div className="text-left">
+                        <div className="text-xs text-sr12-burgundy/80 font-medium">Untuk pembelian minimal</div>
+                        <div className="text-base font-bold text-sr12-burgundy">Rp500.000</div>
+                      </div>
                     </div>
-                    
-                    <div className="font-bold text-sr12-burgundy tracking-wider mb-2">DISKON</div>
-                    <div className="text-xs text-sr12-burgundy/70 font-medium">
-                      Untuk pembelian minimal <br/> <span className="text-sr12-burgundy font-bold text-sm">Rp500.000</span>
-                    </div>
+
+                    <button onClick={handleConsultation} className="w-full bg-sr12-burgundy text-white py-3.5 px-6 rounded-2xl text-sm font-bold flex items-center justify-between hover:bg-sr12-burgundyHover transition-colors shadow-md">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                        Klaim via WhatsApp
+                      </div>
+                      <ArrowRight size={18} />
+                    </button>
                   </div>
-                  
-                  <button onClick={handleConsultation} className="w-full bg-sr12-burgundy text-white py-3 rounded-full text-sm font-bold flex items-center justify-center gap-2 hover:bg-sr12-burgundyHover transition-colors">
-                    <MessageCircle size={16} /> Klaim via WhatsApp
-                  </button>
                 </div>
               </FadeIn>
             </div>
