@@ -119,11 +119,80 @@ const Home = () => {
                 </div>
               </FadeIn>
               
-              {/* Card 2: Promo Image */}
+              {/* Card 2: Promo */}
               <FadeIn delay={0.5} direction="left" className="flex-1 h-full">
-                <div className="h-full border border-white/60 rounded-[2rem] shadow-lg relative overflow-hidden bg-sr12-lightPink/20 cursor-pointer group" onClick={handleConsultation}>
-                  <img src="/promo.png" alt="Promo Spesial" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300"></div>
+                <div className="h-full bg-white/70 backdrop-blur-sm border border-white/60 rounded-[2rem] p-4 sm:p-5 flex flex-col items-center justify-between text-center shadow-lg relative overflow-hidden">
+                  
+                  <div className="w-full relative z-10 flex flex-col items-center flex-1 justify-start pt-1">
+                    <h3 className="text-[11px] font-bold text-sr12-burgundy tracking-[0.2em] uppercase mb-2">Promo Spesial Untukmu</h3>
+                    
+                    {/* Small Divider */}
+                    <div className="flex items-center justify-center w-full gap-2 mb-3">
+                      <div className="h-[1px] w-6 bg-sr12-burgundy/30"></div>
+                      <Leaf className="text-sr12-burgundy/50" size={12} />
+                      <div className="h-[1px] w-6 bg-sr12-burgundy/30"></div>
+                    </div>
+
+                    {/* Badge Area */}
+                    <div className="relative w-36 h-36 flex items-center justify-center mb-3">
+                      {/* Pink blob background */}
+                      <div className="absolute inset-0 bg-sr12-lightPink/80 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] scale-[1.3] rotate-12 blur-sm"></div>
+                      <div className="absolute inset-0 bg-sr12-pink/30 rounded-[60%_40%_30%_70%/50%_60%_50%_40%] scale-[1.2] -rotate-12 blur-sm"></div>
+                      
+                      {/* Petals / Leaves decorations */}
+                      <div className="absolute -left-6 bottom-0 text-sr12-pink rotate-45 opacity-70"><Leaf size={24} fill="currentColor" /></div>
+                      <div className="absolute -right-2 -top-2 text-sr12-pink -rotate-12 opacity-60 scale-75"><Leaf size={16} fill="currentColor" /></div>
+
+                      {/* Scalloped Circle Badge */}
+                      <div className="relative w-28 h-28 flex flex-col items-center justify-center z-10">
+                        {/* Star/Scallop shape using rotated squares */}
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-0"></div>
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[22.5deg]"></div>
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-45"></div>
+                        <div className="absolute inset-0 bg-sr12-burgundy rounded-lg rotate-[67.5deg]"></div>
+                        
+                        {/* Inner Circle to make it look scalloped */}
+                        <div className="absolute inset-1 bg-sr12-burgundy rounded-full border border-white/20"></div>
+
+                        {/* Text inside badge */}
+                        <div className="relative z-10 text-white flex flex-col items-center mt-1">
+                          <span className="text-[9px] font-bold tracking-widest uppercase mb-1">Diskon</span>
+                          <div className="flex items-start -mt-1">
+                            <span className="text-4xl font-serif font-bold italic leading-none">20</span>
+                            <span className="text-xl font-serif font-bold italic mt-1">%</span>
+                          </div>
+                          {/* Mini decorative leaves inside badge */}
+                          <div className="flex gap-1 mt-1">
+                            <Leaf size={6} className="rotate-[120deg]" fill="currentColor" />
+                            <Leaf size={8} className="rotate-0" fill="currentColor" />
+                            <Leaf size={6} className="rotate-[240deg]" fill="currentColor" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Bottom Action Area */}
+                  <div className="w-full relative z-10 space-y-2 mt-auto">
+                    {/* Purchase info pill */}
+                    <div className="bg-white/80 border border-sr12-burgundy/10 rounded-xl p-2.5 flex items-center gap-3">
+                      <div className="w-9 h-9 rounded-lg bg-sr12-lightPink/50 flex items-center justify-center shrink-0 border border-sr12-pink/20">
+                        <ShoppingBag size={18} className="text-sr12-burgundy" />
+                      </div>
+                      <div className="text-left">
+                        <div className="text-[11px] text-sr12-burgundy/80 font-medium">Untuk pembelian minimal</div>
+                        <div className="text-sm font-bold text-sr12-burgundy">Rp500.000</div>
+                      </div>
+                    </div>
+
+                    <button onClick={handleConsultation} className="w-full bg-sr12-burgundy text-white py-3 px-5 rounded-xl text-sm font-bold flex items-center justify-between hover:bg-sr12-burgundyHover transition-colors shadow-sm">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                        Klaim via WhatsApp
+                      </div>
+                      <ArrowRight size={16} />
+                    </button>
+                  </div>
                 </div>
               </FadeIn>
             </div>
