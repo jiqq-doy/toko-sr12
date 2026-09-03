@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { products, CATEGORIES } from '../data/products';
 import ProductCard from '../components/ProductCard';
 import { 
-  MessageCircle, ArrowRight, Sparkles, Zap, 
+  MessageCircle, ArrowRight, Sparkles, 
   CheckCircle2, Package, Headphones,
   Droplet, Smile, Wind, Hand, Sun, Scissors, Sparkle, Leaf, CupSoda, ShieldPlus,
   ShoppingBag, Heart
