@@ -107,13 +107,13 @@ const Home = () => {
                     <div className="h-[1px] w-12 bg-sr12-burgundy/40"></div>
                   </div>
                   
-                  <div className="space-y-2">
-                    <p className="text-lg sm:text-xl font-serif text-sr12-burgundy">
-                      Beauty is not a Dream,
+                  <div className="space-y-1 sm:space-y-2">
+                    <p className="text-xl sm:text-2xl font-serif text-sr12-burgundy">
+                      Beauty is not a Dream.
                     </p>
                     <p className="text-xl sm:text-2xl font-serif italic text-sr12-burgundy flex items-center justify-center gap-2">
-                      Bring Back Your Beauty 
-                      <Heart size={20} className="inline text-sr12-pink/80" fill="currentColor" />
+                      Bring Back Your Dream.
+                      <Heart size={16} className="inline text-sr12-pink/50" fill="currentColor" />
                     </p>
                   </div>
                 </div>
