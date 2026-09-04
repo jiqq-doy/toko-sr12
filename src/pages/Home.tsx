@@ -211,7 +211,7 @@ const Home = () => {
           </FadeIn>
           
           <FadeIn direction="up">
-            <div className="flex overflow-hidden relative group/marquee py-4">
+            <div className="flex overflow-hidden relative group/marquee py-4 carousel-fade">
               {/* First Set */}
               <div className="flex gap-6 lg:gap-8 min-w-full shrink-0 animate-marquee group-hover/marquee:[animation-play-state:paused] pr-6 lg:pr-8">
                 {featuredProducts.map((product) => (

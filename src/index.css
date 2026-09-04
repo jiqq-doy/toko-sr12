@@ -43,9 +43,28 @@ body::before {
   overflow: hidden;
 }
 
+html {
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+}
+
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: #FFFFFF;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  overflow-x: hidden;
+  position: relative;
 }
 
+.carousel-fade {
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
 
+@media (max-width: 768px) {
+  .carousel-fade {
+    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  }
+}
