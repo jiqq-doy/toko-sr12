@@ -97,7 +97,7 @@ const Home = () => {
               {/* Card 1: Logo & Slogan */}
               <FadeIn delay={0.4} direction="left" className="flex-1 h-full">
                 <div className="h-full rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] block">
-                  <img src="/sr12-card-baru.jpg" alt="SR12 Skin Care" className="absolute inset-0 w-full h-full object-cover object-center scale-110" />
+                  <img src="/sr12-card-v4.jpg" alt="SR12 Skin Care" className="absolute inset-0 w-full h-full object-cover object-center scale-110" />
                 </div>
               </FadeIn>
               
