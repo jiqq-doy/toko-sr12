@@ -96,16 +96,15 @@ const Home = () => {
               
               {/* Card 1: Logo & Slogan */}
               <FadeIn delay={0.4} direction="left" className="flex-1 h-full">
-                <div className="h-full rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] flex items-center justify-center">
-                  <img src="/hero-left.jpg" alt="SR12 Skin Care" className="w-full h-full object-cover object-center scale-[1.28]" />
+                <div className="h-full rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] block">
+                  <img src="/sr12-card-baru.jpg" alt="SR12 Skin Care" className="absolute inset-0 w-full h-full object-cover object-center scale-110" />
                 </div>
               </FadeIn>
               
               {/* Card 2: Promo */}
-              {/* Card 2: Promo */}
               <FadeIn delay={0.5} direction="left" className="flex-1 h-full">
-                <div className="h-full border border-white/60 rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] cursor-pointer flex items-center justify-center" onClick={handleConsultation}>
-                  <img src="/promo-baru-v2.jpg" alt="Promo Spesial" className="w-full h-full object-cover object-center" />
+                <div className="h-full border border-white/60 rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] cursor-pointer block" onClick={handleConsultation}>
+                  <img src="/promo-baru-v2.jpg" alt="Promo Spesial" className="absolute inset-0 w-full h-full object-cover object-center scale-[1.02]" />
                 </div>
               </FadeIn>
             </div>
