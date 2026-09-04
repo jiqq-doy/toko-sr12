@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        bodoni: ['"Bodoni Moda"', 'serif'],
       }
     },
   },
