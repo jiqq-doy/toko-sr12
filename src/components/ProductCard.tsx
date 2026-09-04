@@ -36,8 +36,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
       {/* Content Area */}
       <div className="flex flex-col flex-1 px-2 pb-2">
-        <Link to={`/produk/${product.id}`} className="mb-2 block">
-          <h3 className="font-bold text-sr12-burgundy text-[15px] leading-snug line-clamp-2 min-h-[44px] group-hover:text-sr12-burgundyHover transition-colors">
+        <Link to={`/produk/${product.id}`} className="block">
+          <h3 className="font-serif font-bold text-sr12-burgundy text-lg leading-snug line-clamp-2 group-hover:text-sr12-burgundyHover transition-colors">
             {product.name}
           </h3>
         </Link>

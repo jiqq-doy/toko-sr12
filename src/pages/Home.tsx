@@ -210,13 +210,27 @@ const Home = () => {
             </div>
           </FadeIn>
           
-          <div className="flex overflow-x-auto gap-6 lg:gap-8 pb-8 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-            {featuredProducts.map((product, index) => (
-              <FadeIn key={product.id} delay={index * 0.1} direction="up" className="min-w-[280px] sm:min-w-[300px] w-[80vw] sm:w-auto flex-1 snap-start shrink-0">
-                <ProductCard product={product} />
-              </FadeIn>
-            ))}
-          </div>
+          <FadeIn direction="up">
+            <div className="flex overflow-hidden relative group/marquee py-4">
+              {/* First Set */}
+              <div className="flex gap-6 lg:gap-8 min-w-full shrink-0 animate-marquee group-hover/marquee:[animation-play-state:paused] pr-6 lg:pr-8">
+                {featuredProducts.map((product) => (
+                  <div key={product.id} className="min-w-[280px] sm:min-w-[300px] w-[80vw] sm:w-auto shrink-0">
+                    <ProductCard product={product} />
+                  </div>
+                ))}
+              </div>
+              
+              {/* Duplicated Set for infinite loop */}
+              <div className="flex gap-6 lg:gap-8 min-w-full shrink-0 animate-marquee group-hover/marquee:[animation-play-state:paused] pr-6 lg:pr-8" aria-hidden="true">
+                {featuredProducts.map((product) => (
+                  <div key={`${product.id}-dup`} className="min-w-[280px] sm:min-w-[300px] w-[80vw] sm:w-auto shrink-0">
+                    <ProductCard product={product} />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
           
           <FadeIn direction="up">
             <div className="mt-10 text-center sm:hidden">

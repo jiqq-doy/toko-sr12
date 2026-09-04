@@ -118,12 +118,12 @@ const ProductDetail = () => {
             <p className="text-xs font-extrabold text-sr12-burgundy/90 tracking-[0.2em] uppercase mb-4">
               {product.category}
             </p>
-            <h1 className="text-3xl sm:text-4xl lg:text-[40px] font-serif font-bold text-sr12-burgundy mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-[40px] font-serif font-bold text-sr12-burgundy mb-1 leading-tight">
               {product.name}
             </h1>
 
             <div className="mb-10 w-full">
-              <p className="text-3xl sm:text-4xl font-bold text-sr12-burgundy mb-4">{formattedPrice}</p>
+              <p className="text-3xl sm:text-4xl font-extrabold text-sr12-burgundy mb-4">{formattedPrice}</p>
               <p className="text-[13.5px] text-sr12-burgundy/90 font-semibold flex items-center gap-2">
                 <MessageCircle size={15} className="text-sr12-burgundy/80" />
                 Pemesanan dan pembayaran dilakukan langsung melalui WhatsApp.
