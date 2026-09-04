@@ -18,22 +18,29 @@ const Products = () => {
     if (cat) setActiveCategory(cat);
     
     const q = searchParams.get('q');
-    if (q !== null) setSearchQuery(q);
+    if (q !== null) {
+      setSearchQuery(q);
+    } else {
+      setSearchQuery('');
+    }
   }, [searchParams]);
 
   const allCategories = CATEGORIES;
 
   const filteredProducts = products.filter(product => {
-    const matchCategory = product.category === activeCategory;
-    const matchSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                        product.category.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchCategory && matchSearch;
+    if (searchQuery) {
+      return product.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+             product.category.toLowerCase().includes(searchQuery.toLowerCase());
+    }
+    return product.category === activeCategory;
   });
 
   const handleCategoryChange = (category: string) => {
     setActiveCategory(category);
+    setSearchQuery('');
     setSearchParams(prev => {
       prev.set('category', category);
+      prev.delete('q');
       return prev;
     });
   };
@@ -41,11 +48,28 @@ const Products = () => {
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const q = e.target.value;
     setSearchQuery(q);
+    
+    let newCategory = activeCategory;
+    if (q) {
+      const matchSearch = products.filter(product => 
+        product.name.toLowerCase().includes(q.toLowerCase()) || 
+        product.category.toLowerCase().includes(q.toLowerCase())
+      );
+      const uniqueCategories = [...new Set(matchSearch.map(p => p.category))];
+      if (uniqueCategories.length === 1) {
+        newCategory = uniqueCategories[0];
+        setActiveCategory(newCategory);
+      }
+    }
+
     setSearchParams(prev => {
       if (q) {
         prev.set('q', q);
       } else {
         prev.delete('q');
+      }
+      if (newCategory && newCategory !== prev.get('category')) {
+        prev.set('category', newCategory);
       }
       return prev;
     });
