@@ -103,7 +103,7 @@ const Home = () => {
               
               {/* Card 2: Promo */}
               <FadeIn delay={0.5} direction="left" className="flex-1 h-full">
-                <div className="h-full border border-white/60 rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] cursor-pointer block" onClick={handleConsultation}>
+                <div className="h-full border border-white/60 rounded-[2rem] shadow-lg relative overflow-hidden bg-[#FDE9EE] block">
                   <img src="/promo-baru-v2.jpg" alt="Promo Spesial" className="absolute inset-0 w-full h-full object-cover object-center scale-[1.02]" />
                 </div>
               </FadeIn>
