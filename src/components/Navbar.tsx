@@ -27,26 +27,34 @@ const Navbar = () => {
         {/* Single Row Layout: Logo, Search, Nav Links */}
         <div className="flex justify-between items-center py-3 md:py-4 gap-4 lg:gap-8">
           
-          {/* Logo */}
-          <Link to="/" className="flex-shrink-0 flex items-center justify-center">
-            <img src="/logo.png" alt="SR12 Skin Care" className="h-10 md:h-14 w-auto object-contain" />
-          </Link>
+          {/* Left Side: Logo & Expandable Search */}
+          <div className="flex items-center gap-4 lg:gap-8 flex-1">
+            {/* Logo */}
+            <Link to="/" className="flex-shrink-0 flex items-center justify-center">
+              <img src="/logo.png" alt="SR12 Skin Care" className="h-10 md:h-14 w-auto object-contain" />
+            </Link>
 
-          {/* Desktop Search */}
-          <div className="hidden md:flex flex-1 max-w-2xl">
-            <form onSubmit={handleSearch} className="w-full relative group">
-              <input
-                type="text"
-                placeholder="Cari produk SR12..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-11 pr-4 py-2.5 rounded-full border border-transparent bg-sr12-lightPink/50 hover:bg-sr12-lightPink focus:bg-white focus:border-sr12-burgundy focus:ring-1 focus:ring-sr12-burgundy transition-all text-sm outline-none text-sr12-burgundy placeholder:text-sr12-burgundy/50"
-              />
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-sr12-burgundy/40 group-focus-within:text-sr12-burgundy transition-colors" size={18} />
-            </form>
+            {/* Desktop Search - Expandable */}
+            <div className="hidden md:flex items-center">
+              <form onSubmit={handleSearch} className="relative group">
+                <input
+                  type="text"
+                  placeholder="Cari produk SR12..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-48 lg:w-64 focus:w-72 lg:focus:w-96 pl-10 pr-10 py-2.5 rounded-full border border-transparent bg-black/5 hover:bg-black/10 focus:bg-white focus:border-sr12-burgundy focus:shadow-sm focus:ring-1 focus:ring-sr12-burgundy transition-all duration-300 ease-out text-sm outline-none text-sr12-burgundy placeholder:text-sr12-burgundy/50"
+                />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-sr12-burgundy/40 group-focus-within:text-sr12-burgundy transition-colors pointer-events-none" size={18} />
+                {searchQuery && (
+                  <button type="button" onClick={() => setSearchQuery('')} className="absolute right-4 top-1/2 -translate-y-1/2 text-sr12-burgundy/40 hover:text-sr12-burgundy">
+                    <X size={16} />
+                  </button>
+                )}
+              </form>
+            </div>
           </div>
 
-          {/* Desktop Navigation Links */}
+          {/* Right Side: Desktop Navigation Links */}
           <div className="hidden md:flex items-center space-x-1 lg:space-x-2">
             <Link 
               to="/" 
