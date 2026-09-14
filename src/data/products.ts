@@ -749,7 +749,7 @@ export const products: Product[] = [
     "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-01.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-batch2-01.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg', '/testimonials/testi-gomilku-pdf-1.jpg', '/testimonials/testi-gomilku-pdf-2.jpg']
   },
   {
     "id": "go-milku-original-600-gr",
@@ -760,7 +760,7 @@ export const products: Product[] = [
     "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-01.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-batch2-01.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg', '/testimonials/testi-gomilku-pdf-1.jpg', '/testimonials/testi-gomilku-pdf-2.jpg']
   },
   {
     "id": "go-milku-cokelat-200-gr-52-500",
@@ -771,7 +771,7 @@ export const products: Product[] = [
     "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-02.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-batch2-02.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg', '/testimonials/testi-gomilku-pdf-1.jpg', '/testimonials/testi-gomilku-pdf-2.jpg']
   },
   {
     "id": "go-milku-cokelat-600-gr",
@@ -782,7 +782,7 @@ export const products: Product[] = [
     "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-02.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-batch2-02.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg', '/testimonials/testi-gomilku-pdf-1.jpg', '/testimonials/testi-gomilku-pdf-2.jpg']
   },
   {
     "id": "go-milku-stroberi-200-gr",
@@ -793,7 +793,7 @@ export const products: Product[] = [
     "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-03.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-batch2-03.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg', '/testimonials/testi-gomilku-pdf-1.jpg', '/testimonials/testi-gomilku-pdf-2.jpg']
   },
   {
     "id": "go-milku-stroberi-600-gr",
@@ -804,7 +804,7 @@ export const products: Product[] = [
     "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-03.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-batch2-03.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg', '/testimonials/testi-gomilku-pdf-1.jpg', '/testimonials/testi-gomilku-pdf-2.jpg']
   },
   {
     "id": "go-milku-gold-200-gr",
@@ -812,10 +812,10 @@ export const products: Product[] = [
     "price": 55000,
     "category": "Herbal",
     "image": "/products/go-milku-gold-200-gr.png",
-    "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
-    "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+    "benefits": "• 0% Kolesterol: Susu rendah lemak dengan kadar 0% kolesterol\n• Daun Kelor: Diperkaya Daun Kelor sebagai antioksidan, sumber vitamin dan mineral\n• Vitamin Neurotropik: Kandungan Vitamin Neurotropik Vitamin B1, B6 dan B12 membantu meningkatkan kesehatan syaraf\n• Calgo: Diperkaya Calgo yang bersumber dari Fish Bone Salmon (Tulang Ikan Salmon) sebagai sumber tinggi kalsium\n• Ekstrak Ikan Gabus: Diperkaya dengan Ekstrak Ikan Gabus sebagai sumber protein\n• Ekstrak Jahe: Dilengkapi Ekstrak Jahe membantu mengurangi nyeri pada tulang dan persendian\n• Ekstrak Bawang Putih: Kombinasi Ekstrak Bawang Putih dapat membantu melancarkan aliran darah",
+    "ingredients": "Susu Kambing Etawa, Daun Kelor, Ekstrak Ikan Gabus, Ekstrak Jahe, Ekstrak Bawang Putih, Fish Bone Salmon (Calgo), Vitamin Neurotropik (B1, B6, B12).",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-04.jpg', '/testimonials/testi-batch2-05.jpg', '/testimonials/testi-batch2-07.jpg']
+    testimonialImages: ['/testimonials/testi-gomilku-gold-pdf-1.jpg', '/testimonials/testi-gomilku-gold-pdf-2.jpg', '/testimonials/testi-gomilku-gold-pdf-3.jpg']
   },
   {
     "id": "go-milku-gold-600-gr",
@@ -823,10 +823,10 @@ export const products: Product[] = [
     "price": 136000,
     "category": "Herbal",
     "image": "/products/go-milku-gold-600-gr.png",
-    "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
-    "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+    "benefits": "• 0% Kolesterol: Susu rendah lemak dengan kadar 0% kolesterol\n• Daun Kelor: Diperkaya Daun Kelor sebagai antioksidan, sumber vitamin dan mineral\n• Vitamin Neurotropik: Kandungan Vitamin Neurotropik Vitamin B1, B6 dan B12 membantu meningkatkan kesehatan syaraf\n• Calgo: Diperkaya Calgo yang bersumber dari Fish Bone Salmon (Tulang Ikan Salmon) sebagai sumber tinggi kalsium\n• Ekstrak Ikan Gabus: Diperkaya dengan Ekstrak Ikan Gabus sebagai sumber protein\n• Ekstrak Jahe: Dilengkapi Ekstrak Jahe membantu mengurangi nyeri pada tulang dan persendian\n• Ekstrak Bawang Putih: Kombinasi Ekstrak Bawang Putih dapat membantu melancarkan aliran darah",
+    "ingredients": "Susu Kambing Etawa, Daun Kelor, Ekstrak Ikan Gabus, Ekstrak Jahe, Ekstrak Bawang Putih, Fish Bone Salmon (Calgo), Vitamin Neurotropik (B1, B6, B12).",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
-    testimonialImages: ['/testimonials/testi-batch2-04.jpg', '/testimonials/testi-batch2-05.jpg', '/testimonials/testi-batch2-07.jpg']
+    testimonialImages: ['/testimonials/testi-gomilku-gold-pdf-1.jpg', '/testimonials/testi-gomilku-gold-pdf-2.jpg', '/testimonials/testi-gomilku-gold-pdf-3.jpg']
   },
   {
     "id": "go-milku-pouch",
@@ -838,7 +838,7 @@ export const products: Product[] = [
     "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
     "imageClassName": "scale-[1.02] object-center",
-    testimonialImages: ['/testimonials/testi-batch2-01.jpg', '/testimonials/testi-batch2-06.jpg', '/testimonials/testi-batch2-08.jpg', '/testimonials/testi-batch2-09.jpg', '/testimonials/testi-batch2-10.jpg']
+    testimonialImages: ['/testimonials/testi-gomilku-pouch-1.jpg', '/testimonials/testi-gomilku-pouch-2.jpg', '/testimonials/testi-gomilku-pouch-3.jpg']
   },
   {
     "id": "go-milku-gold-pouch",
@@ -846,11 +846,11 @@ export const products: Product[] = [
     "price": 220000,
     "category": "Herbal",
     "image": "/products/go-milku-gold-pouch.png",
-    "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
-    "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+    "benefits": "• 0% Kolesterol: Susu rendah lemak dengan kadar 0% kolesterol\n• Daun Kelor: Diperkaya Daun Kelor sebagai antioksidan, sumber vitamin dan mineral\n• Vitamin Neurotropik: Kandungan Vitamin Neurotropik Vitamin B1, B6 dan B12 membantu meningkatkan kesehatan syaraf\n• Calgo: Diperkaya Calgo yang bersumber dari Fish Bone Salmon (Tulang Ikan Salmon) sebagai sumber tinggi kalsium\n• Ekstrak Ikan Gabus: Diperkaya dengan Ekstrak Ikan Gabus sebagai sumber protein\n• Ekstrak Jahe: Dilengkapi Ekstrak Jahe membantu mengurangi nyeri pada tulang dan persendian\n• Ekstrak Bawang Putih: Kombinasi Ekstrak Bawang Putih dapat membantu melancarkan aliran darah",
+    "ingredients": "Susu Kambing Etawa, Daun Kelor, Ekstrak Ikan Gabus, Ekstrak Jahe, Ekstrak Bawang Putih, Fish Bone Salmon (Calgo), Vitamin Neurotropik (B1, B6, B12).",
     "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan.",
     "imageClassName": "scale-[1.02] object-center",
-    testimonialImages: ['/testimonials/testi-batch2-04.jpg', '/testimonials/testi-batch2-05.jpg', '/testimonials/testi-batch2-07.jpg']
+    testimonialImages: ['/testimonials/testi-gomilku-gold-pouch-1.jpg', '/testimonials/testi-gomilku-gold-pouch-2.jpg', '/testimonials/testi-gomilku-gold-pouch-3.jpg']
   },
   {
     "id": "lemonkuh-500-ml",
