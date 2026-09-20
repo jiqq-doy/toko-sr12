@@ -87,9 +87,7 @@ const Products = () => {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-sr12-pink/40 rounded-full mix-blend-overlay filter blur-3xl translate-y-1/2 -translate-x-1/3"></div>
             
             <div className="relative z-10 w-full max-w-3xl">
-              <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-1.5 rounded-full text-xs font-bold text-sr12-burgundy mb-6 shadow-sm border border-white/50">
-                <Sparkles size={14} /> SR12 Skin Care
-              </div>
+
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-sr12-burgundy mb-4 leading-tight">
                 Katalog Produk SR12
               </h1>

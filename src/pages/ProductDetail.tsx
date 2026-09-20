@@ -5,15 +5,18 @@ import { MessageCircle, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-reac
 import ProductInfoTabs from '../components/ProductInfoTabs';
 import FadeIn from '../components/animations/FadeIn';
 import { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const ProductDetail = () => {
   const { id } = useParams();
   const product = products.find(p => p.id === id);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [direction, setDirection] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
     setCurrentImageIndex(0);
+    setDirection(0);
   }, [id]);
 
   if (!product) {
@@ -42,11 +45,32 @@ const ProductDetail = () => {
   const allImages = [product.image, ...(product.testimonialImages || [])];
 
   const nextImage = () => {
+    setDirection(1);
     setCurrentImageIndex((prev) => (prev + 1) % allImages.length);
   };
 
   const prevImage = () => {
+    setDirection(-1);
     setCurrentImageIndex((prev) => (prev - 1 + allImages.length) % allImages.length);
+  };
+
+  const goToImage = (idx: number) => {
+    setDirection(idx > currentImageIndex ? 1 : -1);
+    setCurrentImageIndex(idx);
+  };
+
+  const slideVariants = {
+    enter: (direction: number) => ({
+      x: direction > 0 ? '100%' : '-100%'
+    }),
+    center: {
+      zIndex: 1,
+      x: 0
+    },
+    exit: (direction: number) => ({
+      zIndex: 0,
+      x: direction < 0 ? '100%' : '-100%'
+    })
   };
 
   return (
@@ -79,13 +103,26 @@ const ProductDetail = () => {
               </button>
             )}
 
-            <img 
-              src={allImages[currentImageIndex]} 
-              alt={`${product.name} - image ${currentImageIndex + 1}`} 
-              className={`w-full h-full object-contain z-10 transition-transform duration-700 ${
-                product.category === 'Parfum' ? 'scale-[0.8] group-hover:scale-[0.85]' : 'group-hover:scale-105'
-              }`}
-            />
+            <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+              <AnimatePresence initial={false} custom={direction}>
+                <motion.img
+                  key={currentImageIndex}
+                  src={allImages[currentImageIndex]}
+                  custom={direction}
+                  variants={slideVariants}
+                  initial="enter"
+                  animate="center"
+                  exit="exit"
+                  transition={{
+                    x: { type: "tween", ease: "easeInOut", duration: 0.3 }
+                  }}
+                  alt={`${product.name} - image ${currentImageIndex + 1}`}
+                  className={`absolute w-full h-full object-contain z-10 ${
+                    product.category === 'Parfum' ? 'scale-[0.8]' : ''
+                  }`}
+                />
+              </AnimatePresence>
+            </div>
 
             {allImages.length > 1 && (
               <button 
@@ -101,7 +138,7 @@ const ProductDetail = () => {
                 {allImages.map((_, idx) => (
                   <button
                     key={idx}
-                    onClick={() => setCurrentImageIndex(idx)}
+                    onClick={() => goToImage(idx)}
                     className={`w-2.5 h-2.5 rounded-full transition-colors ${
                       idx === currentImageIndex ? 'bg-sr12-burgundy' : 'bg-sr12-burgundy/30 hover:bg-sr12-burgundy/60'
                     }`}

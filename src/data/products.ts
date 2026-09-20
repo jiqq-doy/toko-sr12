@@ -34,7 +34,7 @@ export const products: Product[] = [
     "benefits": "Merupakan sabun yang terbuat dari bahan-bahan pilihan yang dapat menjadikan kulit bersih, tetap sehat dan lembap.",
     "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Turtle Oil, Parfum, CI 19140, CI 16255, BHT",
     "howToUse": "Usapkan secara lembut pada seluruh tubuh yang telah dibasahi air, lalu bilas hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-03.jpg", "/testimonials/testimonial-bulus-01.png", "/testimonials/testimonial-bulus-02.png"]
+    testimonialImages: ["/testimonials/testimonial-03.jpg", "/testimonials/testimonial-bulus-01.png", "/testimonials/testimonial-bulus-02.png", "/testimonials/testi-bulus-soap-1.jpg", "/testimonials/testi-bulus-soap-2.jpg", "/testimonials/testi-bulus-soap-3.jpg", "/testimonials/testi-bulus-soap-4.jpg"]
   },
   {
     "id": "coffee-soap",
@@ -45,7 +45,7 @@ export const products: Product[] = [
     "benefits": "Membantu mencerahkan, membersihkan dan membuat kulit terasa halus dan lembut.",
     "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbital, Coffea Arabica Seed Powder, Parfum, BHT.",
     "howToUse": "Basuh tubuh dengan air bersih, usapkan sabun yang telah dibasahi air sampai berbusa. Gosok lembut lalu bilas dengan air hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-coffee-01.png", "/testimonials/testimonial-coffee-02.png", "/testimonials/testimonial-coffee-03.jpg"]
+    testimonialImages: ["/testimonials/testimonial-coffee-01.png", "/testimonials/testimonial-coffee-02.png", "/testimonials/testimonial-coffee-03.jpg", "/testimonials/testi-coffee-soap-1.jpg", "/testimonials/testi-coffee-soap-2.jpg", "/testimonials/testi-coffee-soap-3.jpg", "/testimonials/testi-coffee-soap-4.jpg", "/testimonials/testi-coffee-soap-5.jpg"]
   },
   {
     "id": "honey-soap",
@@ -56,7 +56,7 @@ export const products: Product[] = [
     "benefits": "Membersihkan, melembabkan dan membantu mencerahkan kulit",
     "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Stearic Acid, Alcohol Denat, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbitol, Parfum, Honey (Mel), BHT, CI 12480.",
     "howToUse": "Basuh tubuh dengan air bersih, usapkan sabun yang telah dibasahi air sampai berbusa. Gosok lembut lalu bilas dengan air hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-honey-01.jpg", "/testimonials/testimonial-honey-02.png"]
+    testimonialImages: ["/testimonials/testimonial-honey-01.jpg", "/testimonials/testimonial-honey-02.png", "/testimonials/testi-honey-soap-1.jpg", "/testimonials/testi-honey-soap-2.jpg", "/testimonials/testi-honey-soap-3.jpg"]
   },
   {
     "id": "rice-soap",
@@ -67,7 +67,7 @@ export const products: Product[] = [
     "benefits": "Mengangkat minyak pada kulit wajah, membantu menjaga kelembutan dan kelembapan kulit.",
     "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbitol, Parfum, Saccharomyces/Rice (Oryza Sativa) Extract, Polyethylene, Acrylates Copolymer, BHT.",
     "howToUse": "Basuh tubuh dengan air basah, usapkan sabun yang telah dibasahi air sampai berbusa. Gosok lembut lalu bilas dengan air hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-02.jpg", "/testimonials/testimonial-rice-01.png", "/testimonials/testimonial-rice-02.png"]
+    testimonialImages: ["/testimonials/testimonial-02.jpg", "/testimonials/testimonial-rice-01.png", "/testimonials/testimonial-rice-02.png", "/testimonials/testi-rice-soap-1.jpg", "/testimonials/testi-rice-soap-2.jpg", "/testimonials/testi-rice-soap-3.jpg", "/testimonials/testi-rice-soap-4.jpg"]
   },
   {
     "id": "dna-salmon-soap",
@@ -90,7 +90,7 @@ export const products: Product[] = [
     "benefits": "• Membersihkan kulit wajah dari kotoran\n• Membersihkan minyak berlebih dan sisa make up\n• Mengandung minyak bulus yg membantu merawat kulit wajah lebih bersih, segar & sehat.",
     "ingredients": "Cocos Nucifera Oil, Aqua, Propylene Glycol, Glycerin, Potassium Hydroxide, Sodium Hydroxide, Parfum, BHT, Turtle Oil, Phenoxyethanol.",
     "howToUse": "Tuangkan facial wash secukupnya pada telapak tangan, kemudian usapkan dengan lembut pada kulit wajah. Diamkan beberapa saat lalu bilas hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-fwbulus-01.png", "/testimonials/testimonial-fwbulus-02.jpg", "/testimonials/testimonial-fwbulus-03.png"]
+    testimonialImages: ["/testimonials/testimonial-fwbulus-01.png", "/testimonials/testimonial-fwbulus-02.jpg", "/testimonials/testimonial-fwbulus-03.png", "/testimonials/testi-fw-bulus-1.jpg", "/testimonials/testi-fw-bulus-2.jpg"]
   },
   {
     "id": "fw-coffee",
@@ -101,7 +101,7 @@ export const products: Product[] = [
     "benefits": "Facial wash dengan kandungan coffea cenaphora seed extract yg digunakan untuk membersihkan wajah dari kotoran, debu, dan sisa make up sehingga wajah tampak lebih bersih, lembab, cerah dan segar",
     "ingredients": "Aqua, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Sodium Lauroyl Methylaminopropionate, Disodium Lauriminodiacetate, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Ammonium Acryloyl Dimethyltaurate/Carboxyethyl Acrylate Crosspolymer, PEG-40 Hydrogenated Castor Oil, Panthenol, Phenoxyethanol, Coffea Canephora Seed Extract, Parfum, Disodium EDTA.",
     "howToUse": "Basahi wajah dengan air, tuangkan facial wash pada telapak tangan dengan secukupnya, busahkan facial wash kemudian usapkan secara merata ke seluruh wajah dengan gerakan melingkar keluar dan sedikit dipijat. Lalu bilas dengan air hingga bersih",
-    testimonialImages: ["/testimonials/testimonial-fwcoffee-01.jpg", "/testimonials/testimonial-fwcoffee-02.jpg", "/testimonials/testimonial-fwcoffee-03.jpg"]
+    testimonialImages: ["/testimonials/testimonial-fwcoffee-01.jpg", "/testimonials/testimonial-fwcoffee-02.jpg", "/testimonials/testimonial-fwcoffee-03.jpg", "/testimonials/testi-fw-coffee-1.jpg", "/testimonials/testi-fw-coffee-2.jpg"]
   },
   {
     "id": "fw-greentea",
@@ -112,7 +112,7 @@ export const products: Product[] = [
     "benefits": "Membersihkan wajah dari kotoran, debu, dan sisa make up yang menempel pada kulit. membantu merawat kulit wajah sehingga wajah tampak bersih, halus, dan lembut.",
     "ingredients": "Aqua, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Sodium Lauroyl Methylaminopropionate, Disodium Lauriminodiacetate, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Ammonium Acryloyl Dimethyltaurate/Carboxyethyl Acrylate Crosspolymer PEG-40 Hydrogenated Castor Oil, Parfum, Phenoxyethanol, Disodium EDTA, Camellia Sinensis Leaf Extract, CI 59040.",
     "howToUse": "Usapkan sabun secukupnya pada wajah yang telah dibasahi air, diamkan beberapa saat kemudian bilas hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-fwgreentea-01.jpg", "/testimonials/testimonial-fwgreentea-02.jpg", "/testimonials/testimonial-fwgreentea-03.jpg"]
+    testimonialImages: ["/testimonials/testimonial-fwgreentea-01.jpg", "/testimonials/testimonial-fwgreentea-02.jpg", "/testimonials/testimonial-fwgreentea-03.jpg", "/testimonials/testi-fw-greentea-1.jpg", "/testimonials/testi-fw-greentea-2.jpg", "/testimonials/testi-fw-greentea-3.jpg", "/testimonials/testi-fw-greentea-4.jpg", "/testimonials/testi-fw-greentea-5.jpg"]
   },
   {
     "id": "fw-honey",
@@ -123,7 +123,7 @@ export const products: Product[] = [
     "benefits": "Membersihkan wajah, menyegarkan kulit serta melembabkan kulit wajah sehingga wajah tampak lebih bersih, segar, halus dan lembut.",
     "ingredients": "Aqua, Sodium Methyl Cocoyl Taurate, Mel Extract, Cocamidopropyl Betaine, Sodium Lauroyl Methylaminopropionate, Disodium Lauriminodiacetate, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Ammonium Acryloyl Dimethyltaurate/Carboxyethyl Acrylate Crosspolymer, PEG-40 Hydrogenated Castor Oil, Phenoxyethanol, Parfum, Disodium EDTA.",
     "howToUse": "Usapkan sabun secukupnya pada wajah yang telah dibasahi air, gosok dengan lembut kemudian diamkan beberapa saat kemudian bilas hingga bersih.",
-    testimonialImages: ["/testimonials/testimonial-fwhoney-01.jpg", "/testimonials/testimonial-fwhoney-02.jpg", "/testimonials/testimonial-fwhoney-03.jpg"]
+    testimonialImages: ["/testimonials/testimonial-fwhoney-01.jpg", "/testimonials/testimonial-fwhoney-02.jpg", "/testimonials/testimonial-fwhoney-03.jpg", "/testimonials/testi-fw-honey-1.jpg", "/testimonials/testi-fw-honey-2.jpg", "/testimonials/testi-fw-honey-3.jpg"]
   },
   {
     "id": "fw-glutation",
@@ -135,7 +135,7 @@ export const products: Product[] = [
     "ingredients": "Aqua, Cocos Nucifera Oil, Cocamidopropyl, betaine, Glycerin, Propyleneglycol, Sodium Lauretn Sulfate, Olea europaea husk oil, Nicianamide, Sodium hydroxide, Pottasium hydroxide, Fragrance (Parfum) Components and Finished Fragrances, Olus oil, Glutathione, Hydrolyzed Collagen, CI 16255, Sodium chloride, Sodium sulfate.",
     "howToUse": "Keluarkan foam dengan menekan tutup botol secukupnya pada telapak tangan, lalu usapkan foam keseluruhan wajah yang telah dibasahi, kemudian bilas dengan air bersih.",
     "imageClassName": "scale-[1.02] object-center",
-    testimonialImages: ["/testimonials/testimonial-ffglutation-01.jpg", "/testimonials/testimonial-ffglutation-02.jpg", "/testimonials/testimonial-ffglutation-03.jpg"]
+    testimonialImages: ["/testimonials/testimonial-ffglutation-01.jpg", "/testimonials/testimonial-ffglutation-02.jpg", "/testimonials/testimonial-ffglutation-03.jpg", "/testimonials/testi-fw-glutation-1.jpg", "/testimonials/testi-fw-glutation-2.jpg", "/testimonials/testi-fw-glutation-3.jpg", "/testimonials/testi-fw-glutation-4.jpg", "/testimonials/testi-fw-glutation-5.jpg"]
   },
   {
     "id": "daily-cover-natural-10-gr",
