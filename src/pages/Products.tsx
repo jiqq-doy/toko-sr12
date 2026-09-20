@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Search, Sparkles } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { products, CATEGORIES } from '../data/products';
 import ProductCard from '../components/ProductCard';
 import FadeIn from '../components/animations/FadeIn';
