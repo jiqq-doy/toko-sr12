@@ -17,47 +17,73 @@ const ProductContext = createContext<ProductContextType>({
   isLoading: false,
 });
 
-const REMOTE_STATUS_URL = 'https://raw.githubusercontent.com/jiqq-doy/toko-sr12/main/public/products.json';
+// Try these sources in order: local /products.json → GitHub raw fallback
+const GITHUB_PRODUCTS_URL = 'https://raw.githubusercontent.com/jiqq-doy/toko-sr12/main/public/products.json';
+const FIREBASE_STATUS_KEY = 'sr12_firebase_db_url'; // admin saves this via localStorage (different origin, can't share — use hardcoded fallback)
+
+// ⚠️ Paste your Firebase Realtime Database URL here (from Admin Dashboard → Pengaturan → Firebase URL)
+// Example: 'https://sr12-xxxxxx-default-rtdb.firebaseio.com'
+const FIREBASE_DB_URL = ''; // Will be overridden by /products.json soldOutIds if available
 
 export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [products, setProducts] = useState<Product[]>(initialProducts);
-  const [categories, setCategories] = useState<string[]>(initialCategories);
+  const [categories] = useState<string[]>(initialCategories);
   const [isLoading, setIsLoading] = useState(false);
 
-  const fetchLiveProducts = async () => {
-    try {
-      // 1. Try local /products.json first (fastest on Vercel)
-      let res: Response | null = null;
+  const applyStatus = (baseProds: Product[], soldOutIds: string[]): Product[] =>
+    baseProds.map(p => ({ ...p, soldOut: soldOutIds.includes(p.id), status: soldOutIds.includes(p.id) ? 'soldout' : 'ready' }));
+
+  const fetchStatus = async () => {
+    // 1. Try Firebase Realtime Database (fastest real-time, set by admin)
+    if (FIREBASE_DB_URL) {
       try {
-        res = await fetch('/products.json?t=' + Date.now());
-      } catch {
-        res = null;
-      }
-
-      // 2. If not ok, fetch directly from GitHub raw (real-time before Vercel deploy finishes)
-      if (!res || !res.ok) {
-        res = await fetch(REMOTE_STATUS_URL + '?t=' + Date.now());
-      }
-
-      if (res && res.ok) {
-        const data = await res.json();
-        if (data && Array.isArray(data.products) && data.products.length > 0) {
-          setProducts(data.products);
-          if (Array.isArray(data.categories) && data.categories.length > 0) {
-            setCategories(data.categories);
+        const fbRes = await fetch(FIREBASE_DB_URL.replace(/\/$/, '') + '/products-status.json?t=' + Date.now());
+        if (fbRes.ok) {
+          const fbData = await fbRes.json();
+          if (fbData && Array.isArray(fbData.soldOutIds)) {
+            setProducts(applyStatus(initialProducts, fbData.soldOutIds));
+            return;
           }
         }
-      }
-    } catch {
-      // Fallback silently to initialProducts
+      } catch { /* continue to fallback */ }
     }
+
+    // 2. Try /products.json served by Vercel (updated on every push)
+    try {
+      const res = await fetch('/products.json?t=' + Date.now());
+      if (res.ok) {
+        const data = await res.json();
+        if (data?.products && Array.isArray(data.products)) {
+          setProducts(data.products.map((p: Product) => ({
+            ...initialProducts.find(ip => ip.id === p.id) || p,
+            soldOut: p.soldOut || p.status === 'soldout',
+            status: p.status,
+          })));
+          return;
+        }
+        // Also handle products-status format
+        if (data?.soldOutIds) {
+          setProducts(applyStatus(initialProducts, data.soldOutIds));
+          return;
+        }
+      }
+    } catch { /* continue */ }
+
+    // 3. GitHub raw fallback
+    try {
+      const ghRes = await fetch(GITHUB_PRODUCTS_URL + '?t=' + Date.now());
+      if (ghRes.ok) {
+        const ghData = await ghRes.json();
+        if (ghData?.soldOutIds) {
+          setProducts(applyStatus(initialProducts, ghData.soldOutIds));
+        }
+      }
+    } catch { /* use initialProducts as-is */ }
   };
 
   useEffect(() => {
-    fetchLiveProducts();
-
-    // Auto-refresh every 20s for live synchronization
-    const timer = setInterval(fetchLiveProducts, 20000);
+    fetchStatus();
+    const timer = setInterval(fetchStatus, 20000); // refresh every 20s
     return () => clearInterval(timer);
   }, []);
 
@@ -68,7 +94,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   const refreshProducts = async () => {
     setIsLoading(true);
-    await fetchLiveProducts();
+    await fetchStatus();
     setIsLoading(false);
   };
 
@@ -80,3 +106,4 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
 };
 
 export const useProducts = () => useContext(ProductContext);
+
