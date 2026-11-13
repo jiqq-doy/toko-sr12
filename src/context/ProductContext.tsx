@@ -19,8 +19,8 @@ const ProductContext = createContext<ProductContextType>({
 
 const GITHUB_PRODUCTS_URL = 'https://raw.githubusercontent.com/jiqq-doy/toko-sr12/main/public/products.json';
 
-// Paste your Firebase Realtime Database URL here if using Firebase (optional)
-const FIREBASE_DB_URL: string = '';
+// Connected Firebase Realtime Database
+const FIREBASE_DB_URL: string = 'https://admin-sr12-default-rtdb.asia-southeast1.firebasedatabase.app';
 
 export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [products, setProducts] = useState<Product[]>(initialProducts);
@@ -36,12 +36,31 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
     }));
 
   const fetchStatus = async () => {
-    // 1. Try Firebase Realtime Database if configured
+    // 1. Try Firebase Realtime Database (Super Fast ~30ms, Google Cloud)
     if (Boolean(FIREBASE_DB_URL)) {
       try {
         const fbRes = await fetch(String(FIREBASE_DB_URL).replace(/\/$/, '') + '/products-status.json?t=' + Date.now());
         if (fbRes.ok) {
           const fbData = await fbRes.json();
+          if (fbData?.lastUpdated && fbData.lastUpdated === lastUpdatedRef.current) {
+            return; // No change, skip re-render
+          }
+          if (fbData?.products && Array.isArray(fbData.products)) {
+            lastUpdatedRef.current = fbData.lastUpdated || String(Date.now());
+            const mapped = fbData.products.map((p: Product) => {
+              const isSold = Boolean(p.soldOut || p.status === 'soldout');
+              return {
+                ...p,
+                soldOut: isSold,
+                status: isSold ? 'soldout' : 'ready'
+              };
+            });
+            setProducts(mapped);
+            if (fbData.categories && Array.isArray(fbData.categories)) {
+              setCategories(fbData.categories);
+            }
+            return;
+          }
           if (fbData && Array.isArray(fbData.soldOutIds)) {
             setProducts(applyStatus(initialProducts, fbData.soldOutIds));
             return;
@@ -165,11 +184,42 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       };
     } catch {}
 
+    // 3. Native Firebase Realtime Database Live Push (30ms sub-second sync)
+    let fbEs: EventSource | null = null;
+    if (Boolean(FIREBASE_DB_URL)) {
+      try {
+        fbEs = new EventSource(String(FIREBASE_DB_URL).replace(/\/$/, '') + '/products-status.json');
+        fbEs.addEventListener('put', (event: any) => {
+          try {
+            const parsed = JSON.parse(event.data);
+            if (parsed?.data?.products && Array.isArray(parsed.data.products)) {
+              const prods = parsed.data.products;
+              lastUpdatedRef.current = parsed.data.lastUpdated || String(Date.now());
+              setProducts(prods.map((p: Product) => {
+                const isSold = Boolean(p.soldOut || p.status === 'soldout');
+                return {
+                  ...p,
+                  soldOut: isSold,
+                  status: isSold ? 'soldout' : 'ready'
+                };
+              }));
+              if (parsed.data.categories) {
+                setCategories(parsed.data.categories);
+              }
+            } else if (parsed?.data?.soldOutIds && Array.isArray(parsed.data.soldOutIds)) {
+              setProducts(prev => applyStatus(prev, parsed.data.soldOutIds));
+            }
+          } catch {}
+        });
+      } catch {}
+    }
+
     return () => {
       clearInterval(timer);
       window.removeEventListener('focus', handleFocus);
       if (bc) bc.close();
       if (es) es.close();
+      if (fbEs) fbEs.close();
     };
   }, []);
 
