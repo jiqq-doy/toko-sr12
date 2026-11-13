@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T13:39:41.694Z",
+  "lastUpdated": "2026-11-13T13:42:05.765Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -31,9 +31,9 @@
       "price": 23000,
       "description": "Membantu mencerahkan, membersihkan dan membuat kulit terasa halus dan lembut.",
       "image": "https://tokosr12.vercel.app/products/coffee-soap-v2.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:39:41.692Z"
+      "updatedAt": "2026-11-13T13:42:07.564Z"
     },
     {
       "id": "honey-soap",
@@ -44,7 +44,7 @@
       "image": "https://tokosr12.vercel.app/products/honey-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T13:42:05.764Z"
     },
     {
       "id": "rice-soap",
