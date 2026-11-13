@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T13:42:09.420Z",
+  "lastUpdated": "2026-11-13T13:45:32.114Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -405,9 +405,9 @@
       "price": 48000,
       "description": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-charcoal-100-gr-v3.png",
-      "status": "ready",
+      "status": "soldout",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T13:45:32.113Z"
     },
     {
       "id": "pasta-gigi-charcoal-170-gr",
