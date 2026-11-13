@@ -20,7 +20,7 @@ const ProductContext = createContext<ProductContextType>({
 const GITHUB_PRODUCTS_URL = 'https://raw.githubusercontent.com/jiqq-doy/toko-sr12/main/public/products.json';
 
 // Paste your Firebase Realtime Database URL here if using Firebase (optional)
-const FIREBASE_DB_URL = '';
+const FIREBASE_DB_URL: string = '';
 
 export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [products, setProducts] = useState<Product[]>(initialProducts);
@@ -36,9 +36,9 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   const fetchStatus = async () => {
     // 1. Try Firebase Realtime Database if configured
-    if (FIREBASE_DB_URL) {
+    if (Boolean(FIREBASE_DB_URL)) {
       try {
-        const fbRes = await fetch(FIREBASE_DB_URL.replace(/\/$/, '') + '/products-status.json?t=' + Date.now());
+        const fbRes = await fetch(String(FIREBASE_DB_URL).replace(/\/$/, '') + '/products-status.json?t=' + Date.now());
         if (fbRes.ok) {
           const fbData = await fbRes.json();
           if (fbData && Array.isArray(fbData.soldOutIds)) {
