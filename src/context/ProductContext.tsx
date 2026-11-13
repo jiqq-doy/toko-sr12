@@ -47,10 +47,39 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
             return;
           }
         }
-      } catch { /* continue to local products.json */ }
+      } catch { /* continue */ }
     }
 
-    // 2. Try /products.json (served by local Vite & Vercel)
+    // 2. Try GitHub Raw directly (fastest source of latest admin commits, bypassing stale Vercel builds)
+    try {
+      const ghRes = await fetch(GITHUB_PRODUCTS_URL + '?t=' + Date.now());
+      if (ghRes.ok) {
+        const ghData = await ghRes.json();
+        if (ghData?.lastUpdated && ghData.lastUpdated === lastUpdatedRef.current) {
+          return; // No change, skip re-render
+        }
+        if (ghData?.products && Array.isArray(ghData.products)) {
+          lastUpdatedRef.current = ghData.lastUpdated || String(Date.now());
+          setProducts(ghData.products.map((p: Product) => {
+            const isSold = Boolean(p.soldOut || p.status === 'soldout');
+            return {
+              ...p,
+              soldOut: isSold,
+              status: isSold ? 'soldout' : 'ready'
+            };
+          }));
+          if (ghData.categories && Array.isArray(ghData.categories)) {
+            setCategories(ghData.categories);
+          }
+          return;
+        } else if (ghData?.soldOutIds) {
+          setProducts(applyStatus(initialProducts, ghData.soldOutIds));
+          return;
+        }
+      }
+    } catch { /* fallback to static products.json */ }
+
+    // 3. Fallback to /products.json (served by local Vite or deployed Vercel)
     try {
       const res = await fetch('/products.json?t=' + Date.now());
       if (res.ok) {
@@ -79,38 +108,14 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
           return;
         }
       }
-    } catch { /* continue */ }
-
-    // 3. GitHub raw fallback
-    try {
-      const ghRes = await fetch(GITHUB_PRODUCTS_URL + '?t=' + Date.now());
-      if (ghRes.ok) {
-        const ghData = await ghRes.json();
-        if (ghData?.lastUpdated && ghData.lastUpdated === lastUpdatedRef.current) {
-          return; // No change, skip re-render
-        }
-        if (ghData?.products && Array.isArray(ghData.products)) {
-          lastUpdatedRef.current = ghData.lastUpdated || String(Date.now());
-          setProducts(ghData.products.map((p: Product) => {
-            const isSold = Boolean(p.soldOut || p.status === 'soldout');
-            return {
-              ...p,
-              soldOut: isSold,
-              status: isSold ? 'soldout' : 'ready'
-            };
-          }));
-        } else if (ghData?.soldOutIds) {
-          setProducts(applyStatus(initialProducts, ghData.soldOutIds));
-        }
-      }
     } catch { /* use current */ }
   };
 
   useEffect(() => {
     fetchStatus();
 
-    // Fast polling (every 2.5s) for instant sync between admin and storefront
-    const timer = setInterval(fetchStatus, 2500);
+    // Fast polling (every 3s) for continuous sync
+    const timer = setInterval(fetchStatus, 3000);
 
     // Instant sync when switching back to this tab
     const handleFocus = () => fetchStatus();
@@ -119,9 +124,52 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       if (document.visibilityState === 'visible') fetchStatus();
     });
 
+    // 1. Same-browser instant cross-tab sync (0ms)
+    let bc: BroadcastChannel | null = null;
+    try {
+      bc = new BroadcastChannel('sr12_realtime_sync');
+      bc.onmessage = (event) => {
+        if (event.data?.type === 'SYNC_PRODUCTS' && event.data.payload?.products) {
+          const prods = event.data.payload.products;
+          lastUpdatedRef.current = event.data.payload.lastUpdated || String(Date.now());
+          setProducts(prods.map((p: Product) => {
+            const isSold = Boolean(p.soldOut || p.status === 'soldout');
+            return {
+              ...p,
+              soldOut: isSold,
+              status: isSold ? 'soldout' : 'ready'
+            };
+          }));
+          if (event.data.payload.categories) {
+            setCategories(event.data.payload.categories);
+          }
+        }
+      };
+    } catch {}
+
+    // 2. Global Instant Push via Server-Sent Events (20-50ms)
+    let es: EventSource | null = null;
+    try {
+      es = new EventSource('https://ntfy.sh/sr12-store-sync-jiqqdoy/sse');
+      es.onmessage = (event) => {
+        try {
+          const parsed = JSON.parse(event.data);
+          if (parsed?.message) {
+            const msg = JSON.parse(parsed.message);
+            if (msg.soldOutIds && Array.isArray(msg.soldOutIds)) {
+              setProducts(prev => applyStatus(prev, msg.soldOutIds));
+            }
+            fetchStatus();
+          }
+        } catch {}
+      };
+    } catch {}
+
     return () => {
       clearInterval(timer);
       window.removeEventListener('focus', handleFocus);
+      if (bc) bc.close();
+      if (es) es.close();
     };
   }, []);
 
