@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T13:24:19.167Z",
+  "lastUpdated": "2026-11-13T13:24:21.274Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -372,9 +372,9 @@
       "price": 185000,
       "description": "â€¢ Membantu memperkuat akar rambut\nâ€¢ Membantu menutrisi kulit kepala\nâ€¢ Membantu mengurangi ketombe",
       "image": "https://tokosr12.vercel.app/products/hair-tonic-sr12-100-ml.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:52:06.765Z"
+      "updatedAt": "2026-11-13T13:24:21.271Z"
     },
     {
       "id": "shiyou-collagen-drink-200-gr",
