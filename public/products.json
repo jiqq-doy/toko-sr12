@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T13:42:05.765Z",
+  "lastUpdated": "2026-11-13T13:42:09.420Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -20,9 +20,9 @@
       "price": 28000,
       "description": "Merupakan sabun yang terbuat dari bahan-bahan pilihan yang dapat menjadikan kulit bersih, tetap sehat dan lembap.",
       "image": "https://tokosr12.vercel.app/products/bulus-soap-v2.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:39:38.232Z"
+      "updatedAt": "2026-11-13T13:42:09.420Z"
     },
     {
       "id": "coffee-soap",
