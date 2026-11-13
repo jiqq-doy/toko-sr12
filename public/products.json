@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T13:46:24.400Z",
+  "lastUpdated": "2026-11-13T16:13:38.473Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -22,7 +22,7 @@
       "image": "https://tokosr12.vercel.app/products/bulus-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:42:09.420Z"
+      "updatedAt": "2026-11-13T10:00:26.999Z"
     },
     {
       "id": "coffee-soap",
@@ -33,7 +33,7 @@
       "image": "https://tokosr12.vercel.app/products/coffee-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:42:07.564Z"
+      "updatedAt": "2026-11-13T10:00:26.999Z"
     },
     {
       "id": "honey-soap",
@@ -44,7 +44,7 @@
       "image": "https://tokosr12.vercel.app/products/honey-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:42:05.764Z"
+      "updatedAt": "2026-11-13T10:00:26.999Z"
     },
     {
       "id": "rice-soap",
@@ -405,9 +405,9 @@
       "price": 48000,
       "description": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-charcoal-100-gr-v3.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:45:32.113Z"
+      "updatedAt": "2026-11-13T10:00:26.999Z"
     },
     {
       "id": "pasta-gigi-charcoal-170-gr",
@@ -416,9 +416,9 @@
       "price": 60000,
       "description": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-charcoal-170-gr.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:45:33.784Z"
+      "updatedAt": "2026-11-13T10:00:26.999Z"
     },
     {
       "id": "pasta-gigi-siwak-sirih-170-gr",
@@ -427,9 +427,9 @@
       "price": 82000,
       "description": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-siwak-sirih-170-gr.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:46:24.397Z"
+      "updatedAt": "2026-11-13T10:00:26.999Z"
     },
     {
       "id": "booperi-parfum-misteriosa-30-ml",
