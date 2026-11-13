@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T16:17:50.069Z",
+  "lastUpdated": "2026-11-13T16:36:29.620Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -22,7 +22,11 @@
       "image": "https://tokosr12.vercel.app/products/bulus-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T16:15:10.408Z"
+      "updatedAt": "2026-11-13T16:36:29.619Z",
+      "soldOut": false,
+      "benefits": "Merupakan sabun yang terbuat dari bahan-bahan pilihan yang dapat menjadikan kulit bersih, tetap sehat dan lembap.",
+      "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Turtle Oil, Parfum, CI 19140, CI 16255, BHT",
+      "howToUse": "Usapkan secara lembut pada seluruh tubuh yang telah dibasahi air, lalu bilas hingga bersih."
     },
     {
       "id": "coffee-soap",
@@ -33,7 +37,11 @@
       "image": "https://tokosr12.vercel.app/products/coffee-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T16:15:12.761Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Membantu mencerahkan, membersihkan dan membuat kulit terasa halus dan lembut.",
+      "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbital, Coffea Arabica Seed Powder, Parfum, BHT.",
+      "howToUse": "Basuh tubuh dengan air bersih, usapkan sabun yang telah dibasahi air sampai berbusa. Gosok lembut lalu bilas dengan air hingga bersih."
     },
     {
       "id": "honey-soap",
@@ -44,7 +52,11 @@
       "image": "https://tokosr12.vercel.app/products/honey-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Membersihkan, melembabkan dan membantu mencerahkan kulit",
+      "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Stearic Acid, Alcohol Denat, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbitol, Parfum, Honey (Mel), BHT, CI 12480.",
+      "howToUse": "Basuh tubuh dengan air bersih, usapkan sabun yang telah dibasahi air sampai berbusa. Gosok lembut lalu bilas dengan air hingga bersih."
     },
     {
       "id": "rice-soap",
@@ -55,7 +67,11 @@
       "image": "https://tokosr12.vercel.app/products/rice-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Mengangkat minyak pada kulit wajah, membantu menjaga kelembutan dan kelembapan kulit.",
+      "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbitol, Parfum, Saccharomyces/Rice (Oryza Sativa) Extract, Polyethylene, Acrylates Copolymer, BHT.",
+      "howToUse": "Basuh tubuh dengan air basah, usapkan sabun yang telah dibasahi air sampai berbusa. Gosok lembut lalu bilas dengan air hingga bersih."
     },
     {
       "id": "dna-salmon-soap",
@@ -66,7 +82,11 @@
       "image": "https://tokosr12.vercel.app/products/dna-salmon-soap-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mencerahkan dan melembabkan kulit\n• Membantu menyamarkan bintik hitam serta mengangkat kotoran yang menempel di kulit dan menjaga skin barrier, sehingga kulit wajah tampak bersih dan bersinar",
+      "ingredients": "Sucrose. Aqua, Stearic Acid, Alcohol, Cocos Nucifera Oil, Triethanolamine, Glycerin, Sorbitol, Propylene Glycol, Sodium Hydroxide. Cocamidopropyl Betaine, Sodium Laureth Sulfate, Niacinamide. Kojic Acid, PEG-40 Hydrogenated Castor Oli, Parfum, Acetyl Glycyl Beta-Alanine, CI 19140, Polysorbate 20, Citric Acid, Lactobacillus/Hydrolyzed Collagen Ferment Filtrate Extract, Butylene Glycol, Allantoin, Glutathione, Glycyrrhiza Uralensis Root Extract, BHT, Linoleic Acid, 1,2-Hexanediol, Pentylene Glycol, Oleic Acid, Chlorella Vulgaris Extract, Sodium DNA. Arctostaphylos Liva Ursi Leaf Extract, Ruscus Aculeatus Extract, Arbutus Unedo Leaf Extract, Capsella Bursa-Pastoris Extract, Glycyrrhiza Glabra Root Extract, Chamomilla Recutita Flower Extract, Palmitic Acid, Sodium Hyaluronate, Sodium Benzoate, Caprylyl Glycol, Benzyl Alcohol, Sodium Lauroyl Lactylate, Linolenic Acid, Tranexamoyl Dipeptide-23, Sodium Benzoate, Potassium Hyaluronate, Sodium Hyaluronate Crosspolymer, Sodium Acetylated Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Hyaluronic Acid. Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Ethylhexylglycerin. Potassium Sorbate, Ceramide NP. Phytosphingosine, Ceramide AP, Cholesterol, Xanthan Gum, Carbomer, Tocopherol, Arginine, Silver Oxide, Ceramide EOP, Phytic Acid.",
+      "howToUse": "Busakan sabun lalu usapkan ke bagian tubuh yang akan dibersihkan sampai merata lalu bilas sampai bersih."
     },
     {
       "id": "fw-bulus",
@@ -77,7 +97,11 @@
       "image": "https://tokosr12.vercel.app/products/fw-bulus.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membersihkan kulit wajah dari kotoran\n• Membersihkan minyak berlebih dan sisa make up\n• Mengandung minyak bulus yg membantu merawat kulit wajah lebih bersih, segar & sehat.",
+      "ingredients": "Cocos Nucifera Oil, Aqua, Propylene Glycol, Glycerin, Potassium Hydroxide, Sodium Hydroxide, Parfum, BHT, Turtle Oil, Phenoxyethanol.",
+      "howToUse": "Tuangkan facial wash secukupnya pada telapak tangan, kemudian usapkan dengan lembut pada kulit wajah. Diamkan beberapa saat lalu bilas hingga bersih."
     },
     {
       "id": "fw-coffee",
@@ -88,7 +112,11 @@
       "image": "https://tokosr12.vercel.app/products/fw-coffee.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Facial wash dengan kandungan coffea cenaphora seed extract yg digunakan untuk membersihkan wajah dari kotoran, debu, dan sisa make up sehingga wajah tampak lebih bersih, lembab, cerah dan segar",
+      "ingredients": "Aqua, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Sodium Lauroyl Methylaminopropionate, Disodium Lauriminodiacetate, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Ammonium Acryloyl Dimethyltaurate/Carboxyethyl Acrylate Crosspolymer, PEG-40 Hydrogenated Castor Oil, Panthenol, Phenoxyethanol, Coffea Canephora Seed Extract, Parfum, Disodium EDTA.",
+      "howToUse": "Basahi wajah dengan air, tuangkan facial wash pada telapak tangan dengan secukupnya, busahkan facial wash kemudian usapkan secara merata ke seluruh wajah dengan gerakan melingkar keluar dan sedikit dipijat. Lalu bilas dengan air hingga bersih"
     },
     {
       "id": "fw-greentea",
@@ -99,7 +127,11 @@
       "image": "https://tokosr12.vercel.app/products/fw-greentea.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Membersihkan wajah dari kotoran, debu, dan sisa make up yang menempel pada kulit. membantu merawat kulit wajah sehingga wajah tampak bersih, halus, dan lembut.",
+      "ingredients": "Aqua, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Sodium Lauroyl Methylaminopropionate, Disodium Lauriminodiacetate, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Ammonium Acryloyl Dimethyltaurate/Carboxyethyl Acrylate Crosspolymer PEG-40 Hydrogenated Castor Oil, Parfum, Phenoxyethanol, Disodium EDTA, Camellia Sinensis Leaf Extract, CI 59040.",
+      "howToUse": "Usapkan sabun secukupnya pada wajah yang telah dibasahi air, diamkan beberapa saat kemudian bilas hingga bersih."
     },
     {
       "id": "fw-honey",
@@ -110,7 +142,11 @@
       "image": "https://tokosr12.vercel.app/products/fw-honey.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Membersihkan wajah, menyegarkan kulit serta melembabkan kulit wajah sehingga wajah tampak lebih bersih, segar, halus dan lembut.",
+      "ingredients": "Aqua, Sodium Methyl Cocoyl Taurate, Mel Extract, Cocamidopropyl Betaine, Sodium Lauroyl Methylaminopropionate, Disodium Lauriminodiacetate, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Ammonium Acryloyl Dimethyltaurate/Carboxyethyl Acrylate Crosspolymer, PEG-40 Hydrogenated Castor Oil, Phenoxyethanol, Parfum, Disodium EDTA.",
+      "howToUse": "Usapkan sabun secukupnya pada wajah yang telah dibasahi air, gosok dengan lembut kemudian diamkan beberapa saat kemudian bilas hingga bersih."
     },
     {
       "id": "fw-glutation",
@@ -121,7 +157,11 @@
       "image": "https://tokosr12.vercel.app/products/fw-glutation.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mencerahkan wajah\n• Membantu melembabkan kulit wajah\n• Membantu meningkatkan elastisitas kulit wajah\n• Membantu mengurangi bintik-bintik hitam wajah",
+      "ingredients": "Aqua, Cocos Nucifera Oil, Cocamidopropyl, betaine, Glycerin, Propyleneglycol, Sodium Lauretn Sulfate, Olea europaea husk oil, Nicianamide, Sodium hydroxide, Pottasium hydroxide, Fragrance (Parfum) Components and Finished Fragrances, Olus oil, Glutathione, Hydrolyzed Collagen, CI 16255, Sodium chloride, Sodium sulfate.",
+      "howToUse": "Keluarkan foam dengan menekan tutup botol secukupnya pada telapak tangan, lalu usapkan foam keseluruhan wajah yang telah dibasahi, kemudian bilas dengan air bersih."
     },
     {
       "id": "daily-cover-natural-10-gr",
@@ -132,7 +172,11 @@
       "image": "https://tokosr12.vercel.app/products/daily-cover-natural-10-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Menutupi bekas jerawat\n• Flek hitam\n• Menghasilkan tampilan makeup matte\n• Menyempurnakan hasil makeup agar lebih tahan lama\n• Melindungi kulit dari paparan sinar UV",
+      "ingredients": "Titanium Dioxide, Talc, Triethoxycaprylylsilane, Silica, Dimethicone, Butylene Glycol, CI 77492, Phenoxyethanol, Dimethicone, CI 77491, Aluminium Hydroxide, Ethylhexylglycerin, CI 77499.",
+      "howToUse": "Usapkan pada wajah menggunakan spons atau brush secara merata."
     },
     {
       "id": "daily-cover-beige-10-gr",
@@ -143,7 +187,11 @@
       "image": "https://tokosr12.vercel.app/products/daily-cover-beige-10-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Menutupi bekas jerawat\n• Flek hitam\n• Menghasilkan tampilan makeup matte\n• Menyempurnakan hasil makeup agar lebih tahan lama\n• Melindungi kulit dari paparan sinar UV",
+      "ingredients": "Talc, Titanium Dioxide, Diisostearyl Malate, Dimethicone, Magnesium Myristate, Triethoxycaprylylsilane, CI 77492, Phenoxyethanol, CI 77491, Aluminium Hydroxide, Ethylhexylglycerin, CI 77499.",
+      "howToUse": "Usapkan pada wajah menggunakan spons atau brush secara merata."
     },
     {
       "id": "daily-cover-sheer-pink-10-gr",
@@ -154,7 +202,11 @@
       "image": "https://tokosr12.vercel.app/products/daily-cover-sheer-pink-10-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Menutupi bekas jerawat\n• Flek hitam\n• Menghasilkan tampilan makeup matte\n• Menyempurnakan hasil makeup agar lebih tahan lama\n• Melindungi kulit dari paparan sinar UV",
+      "ingredients": "Talc, Titanium Dioxide, Diisostearyl Malate, Dimethicone, Magnesium Myristate, Triethoxycaprylylsilane, CI 77492, Phenoxyethanol, CI 77491, Aluminium Hydroxide, Ethylhexylglycerin, CI 77499.",
+      "howToUse": "Usapkan merata pada wajah menggunakan spons. Dapat digunakan setelah ataupun tanpa penggunaan cream wajah."
     },
     {
       "id": "matte-cover-natural-loose-powder-15-gr",
@@ -165,7 +217,11 @@
       "image": "https://tokosr12.vercel.app/products/matte-cover-natural-loose-powder-15-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu menutupi bekas jerawat\n• Flek hitam pada wajah\n• Menghasilkan tampilan makeup matte\n• Menyempurnakan hasil makeup agar lebih tahan lama\n• Membantu melindungi kulit dari paparan sinar UV",
+      "ingredients": "Talc, Silica, Titanium Dioxide, Triethoxycaprylylsilane, CI 77492, Phenoxyethanol, CI 77491, Dimethicone, Aluminum Hydroxide, Ethylhexylglycerin, CI 77499.",
+      "howToUse": "Usapkan SR12 SKINCARE Matte Cover Natural Loose Powder ke wajah menggunakan spons atau brush secara merata."
     },
     {
       "id": "perfect-cushion-natural-15-gr",
@@ -176,7 +232,11 @@
       "image": "https://tokosr12.vercel.app/products/perfect-cushion-natural-15-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu meratakan warna kulit\n• Menahan minyak\n• Memberikan hasil akhir semi-matte yang natural\n• Melindungi kulit dari sinar matahari\n• Membantu wajah tampak cerah\n• Lembap berkat kandungan antioksidan\n• UV filter",
+      "ingredients": "Aqua, Titanium Dioxide, Salvia Hispanica Seed Oil, Niacinamide, Tocopheryl Acetate, dan komponen pendukung lainnya.",
+      "howToUse": "Usapkan pada wajah secara merata menggunakan spons."
     },
     {
       "id": "perfect-cushion-ivory-15-gr",
@@ -187,7 +247,11 @@
       "image": "https://tokosr12.vercel.app/products/perfect-cushion-ivory-15-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu menutup\n• Meratakan warna kulit\n• Menahan minyak\n• Memberikan hasil akhir semi-matte yang natural\n• Melindungi kulit dari paparan sinar matahari\n• Membantu wajah tampak cerah\n• Lembap",
+      "ingredients": "Aqua, Cyclopentasiloxane, Titanium Dioxide, Ethylhexyl Methoxycinnamate, Talc, Phenyl Trimethicone, Dimethicone, Trimethylsiloxysilicate, Diethylhexyl Carbonate, Lauryl PEG-10 TRIS (Trimethylsiloxy) Silylethyl Dimethicone, PEG/PPG-20/15 Dimethicone, Isododecane, Butylene Glycol, Niacinamide, Methyl Methacrylate Crosspolymer, CI 77492, Sodium Chloride, Inositol, Dimethicone/Vinyltrimethylsiloxysilicate Crosspolymer, Phenoxyethanol, Disteardimonium Hectorite, Tocopheryl Acetate, Salvia Hispanica Seed Oil, Triethoxycaprylylsilane, Propylene Carbonate, Aluminum Hydroxide, Allantoin, Fragrance (Parfum), CI 77491, PEG-10, Disodium EDTA, Silica, CI 77499, Tocopherol.",
+      "howToUse": "Usapkan menggunakan spons ke wajah secara merata."
     },
     {
       "id": "refill-cushion-natural-15-gr",
@@ -198,7 +262,11 @@
       "image": "https://tokosr12.vercel.app/products/refill-cushion-natural-15-gr-v3.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Meratakan warna kulit\n• Menahan minyak\n• Memberikan hasil akhir semi-matte yang natural\n• Serta melindungi wajah dari sinar matahari agar tampak cerah dan lembap.",
+      "ingredients": "Aqua, Titanium dioxide, Niacinamide, Salvia hispanica seed oil, Tocopheryl acetate, dan komponen pendukung lainnya.",
+      "howToUse": "Usapkan secara merata pada wajah menggunakan spons."
     },
     {
       "id": "refill-cushion-ivory-15-gr",
@@ -209,7 +277,11 @@
       "image": "https://tokosr12.vercel.app/products/refill-cushion-ivory-15-gr-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu menutup dan meratakan warna kulit, Membantu menahan minyak, Membantu hasil akhir semi-matte yang natural, Membantu melindungi kulit dari paparan sinar matahari, Antioxidant & UV filter membantu wajah tampak terlihat cerah dan lembap.",
+      "ingredients": "Aqua, Cyclopentasiloxane, Titanium dioxide, Ethylhexyl methoxycinnamate, Talc, Phenyl trimethicone, Dimethicone, Trimethylsiloxysilicate, Diethylhexyl carbonate Lauryl PEG-10 TRIS (Trimethylsiloxy) silylethyl dimethicone, PEG/PPG-20/15, dimethicone, Isododecane, Butylene glycol, Niacinamide, Methyl methacrylate crosspolymer, CI 77492, Sodium Chloride, Inositol, dimethicone/vinyltrimethylsiloxysilicate crosspolymer, Phenoxyethanol, Disteardimonium hectorite, Tocopheryl acetate, Salvia hispanica seed oil, Triethoxycaprylylsilane, Propylene carbonate, Aluminum hydroxide, allantoin, Fragrance (parfum) components and finished fragrances, CI 77491, PEG-10, Disodium EDTA, Silica, CI 77499, Tocopherol.",
+      "howToUse": "Usapkan menggunakan spons ke wajah secara merata."
     },
     {
       "id": "lip-care-cherry-5-gr",
@@ -220,7 +292,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-care-cherry-5-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Merawat bibir kering\n• Pecah-pecah\n• Sebagai pelembap alami bibir",
+      "ingredients": "Petrolatum, Cera Alba, CI 45410, BHT, Phenoxyethanol, Parfum, Glycerin, Tocopheryl Acetate.",
+      "howToUse": "Oleskan merata pada bibir pada pagi dan malam hari. Dapat diaplikasikan sebelum penggunaan lipstik."
     },
     {
       "id": "lip-care-natural-5-gr",
@@ -231,7 +307,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-care-natural-5-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Merawat bibir kering\n• Pecah-pecah\n• Sebagai pelembap alami bibir",
+      "ingredients": "Petrolatum, Cera Alba, BHT, Phenoxyethanol, Parfum, Tocopheryl Acetate, Glycerin, CI 45410.",
+      "howToUse": "Oleskan merata pada bibir pada pagi dan malam hari. Dapat diaplikasikan sebelum penggunaan lipstik."
     },
     {
       "id": "lip-cream-sr-01-2-gr",
@@ -242,7 +322,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-cream-sr-01-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna bibir yang tahan lama\n• Membantu memberikan penampilan wajah lebih menarik dengan warna yang cerah tetapi tidak terlihat menor",
+      "ingredients": "Isododecane, Bis-Hydroxylauryl Dimethicone/IPDI Copolymer, Trimethylsiloxysilicate, Cyclopentasiloxane, Disteardimonium Hectorite, Red 7 (CI 15850:1), CI 15850:2, Propylene Carbonate, Phenoxyethanol, CI 77491, CI 77891, Sodium Sulfate, Tocopheryl Acetate, Aqua, BHT, Sodium Chloride.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-cream-sr-04-2-gr",
@@ -253,7 +337,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-cream-sr-04-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna bibir yang tahan lama\n• Membantu memberikan penampilan wajah lebih menarik dengan warna yang cerah tetapi tidak terlihat menor",
+      "ingredients": "Isododecane, Cyclopentasiloxane, Bis-Hydroxylauryl Dimethicone/IPDI Copolymer, Trimethylsiloxysilicate, Disteardimonium Hectorite, Propylene Carbonate, Phenoxyethanol, Red 7 (CI-15850-1), CI 77891, Tocopheryl Acetate, Aluminum Hydroxide, CI 45410-2, Aqua, BHT, Sodium Sulfate, CI 45380-3, Sodium Chloride.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-matte-cream-cherish-me-2-gr",
@@ -264,7 +352,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-matte-cream-cherish-me-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna yang tahan lama pada bibir\n• Membantu penampilan wajah terlihat lebih menarik dengan warna yang cerah tetapi tidak terlihat menor",
+      "ingredients": "Isododecane, Cyclopentasiloxane, Trimethylsiloxysilicate, Beeswax, CI 158580-2, Isododecene, Disteardimonium Hectorite, Crambe Abyssinica Seed Oil, Titanium Dioxide, Octyldodecyl Stearoyl Stearate, Propylene Carbonate, CI 77491, C26-28 Alkyl Dimethicone, Methyl Methacrylate Crosspolymer, Phenoxyethanol, Tocopheryl Acetate, BHT, Silica.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-matte-cream-nude-berry-2-gr",
@@ -275,7 +367,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-matte-cream-nude-berry-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna yang tahan lama pada bibir\n• Membantu penampilan wajah terlihat lebih menarik dengan warna yang cerah tetapi tidak terlihat menor",
+      "ingredients": "Isododecane, Cyclopentasiloxane, Trimethylsiloxysilicate, Beeswax, Disteardimonium Hectorite, Crambe Abyssinica Seed Oil, Titanium Dioxide, Octyldodecyl Stearoyl Stearate, Propylene Carbonate, C26-28 Alkyl Dimethicone, Methyl Methacrylate Crosspolymer, CI 45380-3, CI 77491, CI 77492, CI 77499, Phenoxyethanol, Tocopheryl Acetate, BHT, Glycerin, Silica.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-matte-cream-sweet-pink-2-gr",
@@ -286,7 +382,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-matte-cream-sweet-pink-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna yang tahan lama pada bibir\n• Membantu penampilan wajah terlihat lebih menarik dengan warna yang cerah tetapi tidak terlihat menor",
+      "ingredients": "Isododecane, Cyclopentasiloxane, Trimethylsiloxysilicate, Beeswax, Disteardimonium Hectorite, Crambe Abyssinica Seed Oil, Titanium Dioxide, Octyldodecyl Stearoyl Stearate, Propylene Carbonate, C26-28 Alkyl Dimethicone, Methyl Methacrylate Crosspolymer, CI 45380-3, CI 77491, CI 77492, CI 77499, CI 15851-2, Phenoxyethanol, Tocopheryl Acetate, BHT, Glycerin, Silica.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-glow-serum-2-gr",
@@ -297,7 +397,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-glow-serum-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberikan warna pink/glossy pada bibir\n• Membantu melembapkan\n• Menutrisi bibir\n• Membantu mencerahkan bibir",
+      "ingredients": "Pentaerythrityl Tetraisostearate, Diisostearyl Malate, Hydrogenated Polyisobutene, Dipentaerythrityl Tri-Polyhydroxystearate, Phenyl Trimethicone, Polyglyceryl-2 Triisostearate, Phenoxyethanol, Tocopheryl Acetate, Flavor, Aqua, Simmondsia Chinensis Seed Oil, Argania Spinosa Kernel Oil, Rosa Damascena Flower Oil, Lactobacillus/Hydrolyzed Collagen Ferment Filtrate Extract, CI 45410, Glutathione, Pentylene Glycol, PEG-7 Glyceryl Cocoate, Sodium Hyaluronate, Potassium Hyaluronate, Sodium Hyaluronate Crosspolymer, Sodium Acetylated Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Ethylhexylglycerin, BHT, Ceramide NP, Arginine, Phytic Acid, Silver Oxide.",
+      "howToUse": "Oleskan merata pada bibir."
     },
     {
       "id": "lip-mouse-cream-2-gr",
@@ -308,7 +412,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-mouse-cream-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu menjaga kelembapan\n• Merawat bibir agar tidak kering\n• Membantu memberikan warna yang tahan lama pada bibir\n• Membantu penampilan wajah agar terlihat lebih menarik",
+      "ingredients": "Dimethicone, Isododecane, Beeswax, Cyclopentasiloxane, Octyldodecyl Stearoyl Stearate, Polymethylsilsesquioxane, Polypropylene, Disteardimonium Hectorite, Titanium Dioxide, Dimethicone/Vinyltrimethylsiloxysilicate Crosspolymer, CI 77491, Propylene Carbonate, C26-28 Alkyl Dimethicone, Methyl Methacrylate Crosspolymer, Red 7 (CI 15850-1), Phenoxyethanol, Tocopheryl Acetate, CI 77491, BHT, CI 77499, Silica.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-mouse-rose-pink-2-gr",
@@ -319,7 +427,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-mouse-rose-pink-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna yang tahan lama pada bibir\n• Membantu melembapkan bibir",
+      "ingredients": "Isododecane, Cyclopentasiloxane, Trimethylsiloxysilicate, Disteardimonium Hectorite, Synthetic Beeswax, Crambe Abyssinica Seed Oil, Octyldodecyl Stearoyl Stearate, Titanium Dioxide, Propylene Carbonate, CI 45380:3, C26-28 Alkyl Dimethicone, Methyl Methacrylate Crosspolymer, CI 77491, CI 77492, Phenoxyethanol, Tocopheryl Acetate, CI 77499, BHT, Silica.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-mouse-sweet-brown-2-gr",
@@ -330,7 +442,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-mouse-sweet-brown-2-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberi warna yang tahan lama pada bibir\n• Membantu melembapkan bibir",
+      "ingredients": "Isododecane, Cyclopentasiloxane, Trimethylsiloxysilicate, Disteardimonium Hectorite, Synthetic Beeswax, Crambe Abyssinica Seed Oil, Octyldodecyl Stearoyl Stearate, Titanium Dioxide, Propylene Carbonate, C26-28 Alkyl Dimethicone, Methacrylate Crosspolymer, CI 77491, CI 77492, Phenoxyethanol, Tocopheryl Acetate, CI 77499, CI 15850:2, CI 77120, BHT, Silica, Rosin, Aqua, Sodium Chloride.",
+      "howToUse": "Oleskan pada bibir secara merata."
     },
     {
       "id": "lip-potion-cold-fire-8-gr",
@@ -341,7 +457,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-potion-cold-fire-8-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Melembapkan bibir kering/pecah-pecah, memberi warna merah keoranyean segar tahan lama, melindungi dari sinar UV, dan mencegah bibir menggelap akibat radikal bebas. Aman untuk bibir sensitif dan anak usia 6 tahun ke atas.",
+      "ingredients": "Hydrogenated Polyisobutene, C12-15 Alkyl Benzoate, Butyrospermum Parkii Butter, Pentaerythrityl Tetraisostearate, Dextrin Palmitate, Flavor, Simmondsia Chinensis Seed Oil, Diisostearyl Malate, Ethylhexyl Methoxycinnamate, Tocopheryl Acetate, CI 45380, CI 77492, CI 15850:2, Titanium Dioxide, Isododecane, BHT, Phenoxyethanol, Ethylhexylglycerin, Aqua. (Bebas alkohol dan bebas parfum).",
+      "howToUse": "Oleskan merata pada bibir yang bersih."
     },
     {
       "id": "lip-balm-cherry-3-5-gr",
@@ -352,7 +472,11 @@
       "image": "https://tokosr12.vercel.app/products/lip-balm-cherry-3-5-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Merawat bibir kering\n• Pecah-pecah\n• Sebagai pelembap alami bibir\n• Sebagai perona bibir",
+      "ingredients": "Triethylhexanoin, Hydrogenated Polyisobutene, Isostearic Acid, Dibutyl Lauroyl Glutamide, Dibutyl Ethylhexanoyl Glutamide, Simmondsia Chinensis Seed Oil, Polyglyceryl-2 Triisostearate, CI 45410, Parfum, Tocopheryl Acetate.",
+      "howToUse": "Langsung dioleskan ke bibir tanpa penggunaan tangan."
     },
     {
       "id": "alorise-shampoo-100-ml",
@@ -363,7 +487,11 @@
       "image": "https://tokosr12.vercel.app/products/alorise-shampoo-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melembutkan rambut sehingga kulit kepala\n• Rambut menjadi bersih\n• Segar",
+      "ingredients": "Aqua, Sodium Laureth Sulfate, Laureth-7, Parfum, Cocamidopropyl Betaine, Cocamide DEA, Menthol, PEG-40 Hydrogenated Castor Oil, Triethanolamine, Phenoxyethanol, Polyquaternium-10, Palm Kernel/Coco Glucoside, Glyceryl Oleate, Aloe Barbadensis Leaf Juice, Sodium Benzoate, Citric Acid, Sodium Acetate, Sodium Chloride, Isopropanol, Tocopherol, Hydrogenated Palm Glycerides Citrate.",
+      "howToUse": "Basahi rambut, tuangkan shampoo pada telapak tangan, kemudian usapkan secara merata pada kulit kepala dan rambut hingga berbusa. Pijat lembut, lalu bilas dengan air hingga bersih. Ulangi jika diperlukan."
     },
     {
       "id": "hair-tonic-sr12-100-ml",
@@ -374,7 +502,11 @@
       "image": "https://tokosr12.vercel.app/products/hair-tonic-sr12-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memperkuat akar rambut\n• Membantu menutrisi kulit kepala\n• Membantu mengurangi ketombe",
+      "ingredients": "Aqua, Alcohol, Peg-7, glyceryl cocoate, Propylene glycol, PEG-40 hydrogenated castor oil, Pseudoalteromonas ferment extract, Phenoxyethanol, Butylene glycol, Fragrance (parfum) components and finished fragrances, Medicago sativa extract, Humulus lupulus extract, Rosmarinus officinalis Extract, Melilotus officinalis extract, Sodium pca, Sodium lactate, Benzyl alcohol, Arginine, Aspartic Acid, PCA, Sodium salicylate, Acetobacter/Ginkgo Biloba Leaf Ferment Extract, Glycine, Alanine, Dehydroacetic acid, Serine, Valine, Proline, Threonine, Isoleucine, Histidine",
+      "howToUse": "Semprotkan Hair Tonic Protection Spray Anti Dandruff ke kulit kepala dan rambut lalu pijat lembut selama 2-5 menit dan diamkan hingga meresap."
     },
     {
       "id": "shiyou-collagen-drink-200-gr",
@@ -385,7 +517,11 @@
       "image": "https://tokosr12.vercel.app/products/shiyou-collagen-drink-200-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Melindungi kulit dari sinar UV\n• Meningkatkan kesehatan alami kulit\n• Elastisitas kulit\n• Membantu mencegah kerutan/keriput",
+      "ingredients": "Salmon Ovary Peptide, Glutathione, Fish Collagen, Vitamin E, Vitamin C, Creamer, Ekstrak Raspberry, Perisa Raspberry, Sukralose, Dextrose.",
+      "howToUse": "Masukkan 2–4 sendok serbuk SR12 Shiyou Collagen Drink ke dalam gelas. Tuangkan 150 ml air dingin atau hangat. Aduk hingga rata. Dapat diminum 2x sehari."
     },
     {
       "id": "shiyou-collagen-drink-with-steviol-glycoside-225-gr-15-sachet-15-gr",
@@ -396,7 +532,11 @@
       "image": "https://tokosr12.vercel.app/products/shiyou-collagen-drink-with-steviol-glycoside-225-gr-15-sachet-15-gr-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Melindungi kulit dari sinar UV\n• Meningkatkan kesehatan alami kulit\n• Elastisitas kulit\n• Membantu mencegah kerutan/keriput",
+      "ingredients": "Salmon Ovary Peptide, Glutathione, Fish Collagen, Vitamin E, Vitamin C, Creamer, Ekstrak Raspberry, Perisa Raspberry, Sukralose, Dextrose.",
+      "howToUse": "Masukkan 2–4 sendok serbuk SR12 Shiyou Collagen Drink ke dalam gelas. Tuangkan 150 ml air dingin atau hangat. Aduk hingga rata. Dapat diminum 2x sehari."
     },
     {
       "id": "pasta-gigi-charcoal-100-gr",
@@ -407,7 +547,11 @@
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-charcoal-100-gr-v3.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
+      "ingredients": "Aqua, Sorbitol, Silica, Glycerin, Sodium Lauryl Sulfate, Xanthan Gum, CI 77891, Phenoxyethanol, Menthol, Flavor, Charcoal Powder, Zinc Ricinoleate, Tetrasodium glutamate diacetate, Disodium EDTA, Sucralose, Propanediol.",
+      "howToUse": "Letakkan pasta gigi ke sikat gigi lalu bersihkan gigi setelah berkumur. Setelah membersihkan gigi, kumur kembali"
     },
     {
       "id": "pasta-gigi-charcoal-170-gr",
@@ -418,7 +562,11 @@
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-charcoal-170-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
+      "ingredients": "Aqua, Sorbitol, Silica, Glycerin, Sodium Lauryl Sulfate, Xanthan Gum, CI 77891, Phenoxyethanol, Menthol, Flavor, Charcoal Powder, Zinc Ricinoleate, Tetrasodium glutamate diacetate, Disodium EDTA, Sucralose, Propanediol.",
+      "howToUse": "Letakkan pasta gigi ke sikat gigi lalu bersihkan gigi setelah berkumur. Setelah membersihkan gigi, kumur kembali"
     },
     {
       "id": "pasta-gigi-siwak-sirih-170-gr",
@@ -429,7 +577,11 @@
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-siwak-sirih-170-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
+      "ingredients": "Aqua, Sorbitol, Silica, Glycerin, Hydrated Silica, Xanthan gum, ci 77891, Propylene Glycol, Phenoxyethanol, Menthol, Flavor, Piper Betle (leaf) extract, Salvadora Persica Stem Extract, Zinc ricinoleate, tetrasodium, glutamate",
+      "howToUse": "Letakkan pasta gigi ke sikat gigi lalu bersihkan gigi setelah berkumur. Setelah membersihkan gigi, kumur kembali"
     },
     {
       "id": "booperi-parfum-misteriosa-30-ml",
@@ -440,7 +592,11 @@
       "image": "https://tokosr12.vercel.app/products/booperi-parfum-misteriosa-30-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Wewangian yang membantu mengharumkan tubuh.",
+      "ingredients": "Alcohol, Parfum, Vanilin, Hexamethylindanopyran, Propylene Glycol, Diethyl phyhalate, PEG-40 Hydrogenated Castor Oil.",
+      "howToUse": "Gunakan Eau De Parfume Booperi dengan menyemprotkan parfum 2 hingga 3 kali pada bagian tubuh yang ditujukan."
     },
     {
       "id": "booperi-parfum-fantasy-30-ml",
@@ -451,7 +607,11 @@
       "image": "https://tokosr12.vercel.app/products/booperi-parfum-fantasy-30-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Wewangian yang membantu mengharumkan tubuh.",
+      "ingredients": "Alcohol, Parfum, Hexamethylindanopyran, Propylene Glycol, Diethyl phthalate.",
+      "howToUse": "Gunakan Eau De Parfume Booperi dengan menyemprotkan parfum 2 hingga 3 kali pada bagian tubuh yang ditujukan."
     },
     {
       "id": "deodorant-spray-60-ml",
@@ -462,7 +622,11 @@
       "image": "https://tokosr12.vercel.app/products/deodorant-spray-60-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Mencerahkan ketiak\n• Membantu mengurangi keringat yang berlebih\n• Membantu mengurangi bau badan tidak sedap akibat bakteri.",
+      "ingredients": "Aqua, Filter Alum, Aloe Barbadensis Leaf Juice, Citrus Aurantifolia Oil, Triethanolamine, Sodium Hydroxymethylglycinate.",
+      "howToUse": "Semprotkan Deodorant spray setelah habis mandi di ketiak 2-3 semprot lalu usap. Larutan ini tidak berbau dan tidak mengandung alcohol."
     },
     {
       "id": "deodorant-spray-premium-60-ml",
@@ -473,7 +637,11 @@
       "image": "https://tokosr12.vercel.app/products/deodorant-spray-premium-60-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Merawat dan menutrisi secara optimal.",
+      "ingredients": "Bahan alami pilihan.",
+      "howToUse": "Gunakan sesuai petunjuk pada kemasan."
     },
     {
       "id": "massage-oil-bulus-20-ml",
@@ -484,7 +652,11 @@
       "image": "https://tokosr12.vercel.app/products/massage-oil-bulus-20-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Mengobati berbagai penyakit kulit\n• Menyembuhkan luka bakar\n• Menghilangkan flek hitam & keriput di wajah\n• Menghaluskan tumit kaki yang pecah-pecah\n• Mengatasi jerawat & menjaga kelembapan wajah.",
+      "ingredients": "Bahan alami pilihan.",
+      "howToUse": "Gunakan sesuai petunjuk pada kemasan."
     },
     {
       "id": "lightening-body-lotion-100-ml",
@@ -495,7 +667,11 @@
       "image": "https://tokosr12.vercel.app/products/lightening-body-lotion-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mencerahkan kulit\n• Memberi nutrisi kulit, antioksidan\n• Membantu memelihara kelembaban kulit\n• Membantu melindungi kulit dari paparan sinar matahari.",
+      "ingredients": "Aqua, Stearic Acid, Niacinamide Olive Olea Europaea Oil, Cetyl Alcohol, Ethylhexyl Methoxycinnamate, Benzophenone 3, Dimethicone, Glycerin, Paraffinum Liquidum, Propylene Glycol, Phenoxyethanol, Glyceryl Stearate Se, Ceteth-20, Titanium Dioxide, PEG-75 Stearate, Steareth-20, Triethanolamine, Disodium EDTA, Parfum, Tocopheryl Acetate, BHT.",
+      "howToUse": "Oleskan pada tubuh sehabis mandi pagi dan sore hari untuk hasil yang maksimal."
     },
     {
       "id": "whitening-night-body-lotion-100-ml",
@@ -506,7 +682,11 @@
       "image": "https://tokosr12.vercel.app/products/whitening-night-body-lotion-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu menutrisi kulit\n• Membantu mencerahkan kulit\n• Membantu melembabkan dan mencegah kulit kering",
+      "ingredients": "Aqua, Sodium Polyglumate, Polyglyceryl-2 Stearate, Stearyl Alcohol, Glycerin, CI 19140, Fragrance (parfum) Components And Finished Fragrances, Phenoxyethanol, Ascorbyl Glucoside, Kojic Acid, Triethanolamine, Aloe Barbadensis Leaf Extract.",
+      "howToUse": "Oleskan ke tangan, badan dan kaki secara merata sebelum tidur, untuk hasil yang optimal gunakan setiap hari."
     },
     {
       "id": "whitening-moisturizing-cream-100-ml",
@@ -517,7 +697,11 @@
       "image": "https://tokosr12.vercel.app/products/whitening-moisturizing-cream-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mencerahkan dan melembabkan kulit sehingga tampak cerah dan terasa lembab.",
+      "ingredients": "Aqua, Dicaprylyl Carbonate, Diethylhexyl Glycol, Cetyl Alcohol, Niacinamide, Trehalose, Titanium Dioxide, Aloe Barbadensis Leaf Juice, Glyceryl Stearate, Peg-100 Steararate, Butyrospermum Parkii Butter, Phenoxyethanol, Sodium polyacylate, Cocos Nucifera (coconut) oil, Helianthus Annus Seed Oil, Tocopheryl Acetate, Fragrance (parfum) Components and Finished Fragrances, Disodium EDTA, BHT, Polyglutamic Acid.",
+      "howToUse": "Oleskan pada kulit secara merata."
     },
     {
       "id": "milk-cleanser-tube-100-ml",
@@ -528,7 +712,11 @@
       "image": "https://tokosr12.vercel.app/products/milk-cleanser-tube-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu membersihkan sisa makeup\n• Dapat digunakan sebagai pembersih wajah sebelum tidur\n• Membantu melembapkan kulit wajah\n• Membantu regenerasi sel",
+      "ingredients": "Aqua, Alcohol, Cetyl Alcohol, Paraffinum Liquidum, Stearic Acid, Propylene Glycol, Glycerin, Parfum, Glyceryl Stearate, Ceteth-20, PEG-75 Stearate, Triethanolamine, Steareth-20, Styrene Acrylates Copolymer, Sodium Hydroxymethylglycinate, Disodium EDTA, Allantoin, Aloe Barbadensis Leaf Juice, Tocopheryl Acetate.",
+      "howToUse": "Oleskan pada wajah pada pagi sebelum mandi dan malam sebelum tidur, lalu bersihkan dengan kapas. Setelahnya cuci muka dengan facial wash dan keringkan. Kemudian gunakan toner dengan kapas."
     },
     {
       "id": "micellar-water-100-ml",
@@ -539,7 +727,11 @@
       "image": "https://tokosr12.vercel.app/products/micellar-water-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membersihkan wajah dari kotoran\n• Debu\n• Membantu melembapkan kulit secara optimal\n• Menjadikan wajah bersih\n• Segar tanpa meninggalkan rasa berminyak",
+      "ingredients": "Aqua, Glycerin, Disodium Cocoyl Glutamate, Alcohol, Phenoxyethanol, Aloe Barbadensis Leaf Juice, Niacinamide, Disodium EDTA, Citric Acid.",
+      "howToUse": "Usapkan pada wajah tanpa menggosoknya. Tidak perlu dibilas."
     },
     {
       "id": "nature-rose-water-100-ml",
@@ -550,7 +742,11 @@
       "image": "https://tokosr12.vercel.app/products/nature-rose-water-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu makeup lebih tahan lama\n• Membantu melembapkan kulit wajah\n• Membantu menyegarkan kulit saat beraktivitas di dalam maupun luar ruangan",
+      "ingredients": "Aqua, Glycerin, Rose Damascena Flower Water, Phenoxyethanol, Aloe Barbadensis Leaf Juice, Allantoin, Parfum, Disodium EDTA, Potassium Sorbate, Citric Acid, Sodium Benzoate.",
+      "howToUse": "Semprotkan merata pada wajah kapan pun diperlukan. Dapat digunakan sebelum penggunaan cream wajah ataupun sebelum makeup."
     },
     {
       "id": "nature-secret-water-100-ml",
@@ -561,7 +757,11 @@
       "image": "https://tokosr12.vercel.app/products/nature-secret-water-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu makeup lebih tahan lama\n• Melembapkan kulit wajah\n• Membantu kulit melawan radikal bebas\n• Membantu merawat kulit yang berjerawat",
+      "ingredients": "Aqua, Glycerin, Phenoxyethanol, Panax Ginseng Root Extract, Artemisia Vulgaris Extract, Rahmania Chinensis Root Extract, Poria Cocos Extract, Glycyrrhiza Uralensis Root Extract, Honey (Mel) Extract, Angelica Gigas Root Extract, Cornus Officinalis Fruit Extract, Cnidium Officinale Root Extract, Allantoin, Aloe Barbadensis Leaf Juice, Parfum, Disodium EDTA, Oryza Sativa Rice Extract, 1,2-Hexanediol.",
+      "howToUse": "Semprotkan merata pada wajah kapan pun diperlukan. Dapat digunakan sebelum penggunaan cream wajah ataupun sebelum makeup."
     },
     {
       "id": "revitalizing-serum-20-ml",
@@ -572,7 +772,11 @@
       "image": "https://tokosr12.vercel.app/products/revitalizing-serum-20-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mempertahankan kelembapan alami kulit\n• Membantu menyamarkan garis-garis halus sehingga kulit tampak lebih lembap\n• Kenyal",
+      "ingredients": "Aqua, Propylene Glycol, Glycerin, Carbomer, Polyglutamic Acid, Phenoxyethanol, Sea Cucumber Extract, Coconut Cocos Nucifera Oil, Disodium EDTA, PEG-40 Hydrogenated Castor Oil.",
+      "howToUse": "Gunakan setelah wajah dibersihkan dengan facial foam/facial wash. Teteskan 2–3 tetes serum ke telapak tangan dan usapkan secara merata ke wajah. Pijat dengan lembut agar serum terserap dengan baik. Gunakan secara rutin setiap pagi dan malam hari."
     },
     {
       "id": "serum-retinol-20-ml",
@@ -583,7 +787,11 @@
       "image": "https://tokosr12.vercel.app/products/serum-retinol-20-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu perawatan anti-aging\n• Mencerahkan wajah\n• Mengurangi keriput/kerutan\n• Membuat wajah lebih glowing\n• Meningkatkan elastisitas\n• Kekenyalan kulit\n• Membantu mengurangi\n• Mengeringkan jerawat\n• Membantu mengurangi flek hitam/noda bekas jerawat",
+      "ingredients": "Aqua, Butylene Glycol, Dicaprylyl Carbonate, Diethylhexyl Carbonate, Propanediol, Niacinamide, Salvia Hispanica Seed Oil, Phenoxyethanol, Xanthan Gum, Sodium Polyacrylate, Hydrolyzed Glycosaminoglycans, Tocopheryl Acetate, Pentylene Glycol, Lecithin, Inositol, Allantoin, Disodium EDTA, BHT, Alcohol, Retinol, Polysorbate 20, Camellia Sinensis Leaf Extract, Potassium Phosphate.",
+      "howToUse": "Teteskan 5–10 tetes ke telapak tangan, usapkan ke wajah hingga merata, lalu tepuk-tepuk pelan untuk membantu serum meresap."
     },
     {
       "id": "spot-essense-day-cream-10-gr",
@@ -594,7 +802,11 @@
       "image": "https://tokosr12.vercel.app/products/spot-essense-day-cream-10-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Mencerahkan, melembapkan, mengatasi kulit kusam, menyamarkan flek hitam serta bekas jerawat, dan melindungi kulit dari sinar matahari.",
+      "ingredients": "Mengandung bahan aktif seperti Aqua, Octyl Methoxycinnamate, Glycerin, Zinc Oxide, Titanium Dioxide, Arisaema Amurense Extract, dan Tocopheryl Acetate.",
+      "howToUse": "Oleskan merata pada wajah bersih di pagi/siang hari secara rutin"
     },
     {
       "id": "spot-essence-night-cream-10-gr",
@@ -605,7 +817,11 @@
       "image": "https://tokosr12.vercel.app/products/spot-essence-night-cream-10-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mencerahkan\n• Melembapkan kulit wajah\n• Membantu memudarkan bekas jerawat",
+      "ingredients": "Aqua, Diethylhexyl Carbonate, Glycerin, Propylene Glycol, Cetearyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Stearic Acid, Arisaema Amurense Extract, Phenoxyethanol, Polyglutamic Acid, Carbomer, Hydroxyethylcellulose, Decyl Glucoside, Disodium EDTA, 1,2-Hexanediol.",
+      "howToUse": "Gunakan pada malam hari pada wajah yang telah dibersihkan."
     },
     {
       "id": "face-oil-natural-serum-18-ml",
@@ -616,7 +832,11 @@
       "image": "https://tokosr12.vercel.app/products/face-oil-natural-serum-18-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu meningkatkan elastisitas kulit wajah\n• Mengurangi kerutan\n• Garis halus\n• Membantu mengurangi tanda-tanda penuaan dini\n• Melembapkan kulit secara maksimal (4x Power Hydrating)\n• Sebagai anti-jerawat\n• Anti-inflamasi",
+      "ingredients": "Squalane, Rosa Canina Fruit Oil, Tocopherol, Bakuchiol, Sweet Almond (Prunus Amygdalus Dulcis) Oil, Citrus Limon Fruit Oil, Sesamum Indicum (Sesame) Seed Oil, Pelargonium Graveolens Oil, Hippophae Rhamnoides Fruit Extract, Aqua, BHT, Macadamia Ternifolia Seed Oil, Ascorbyl Palmitate.",
+      "howToUse": "Teteskan 2–3 tetes ke telapak tangan, kemudian tepuk-tepuk ke seluruh wajah secara merata."
     },
     {
       "id": "suncare-lotion-spf-25-pa-15-gr",
@@ -627,7 +847,11 @@
       "image": "https://tokosr12.vercel.app/products/suncare-lotion-spf-25-pa-15-gr-v2.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melindungi kulit dari paparan sinar UV. Dengan tambahan vitamin E\n• Vitamin B3\n• Antioksidan\n• Membantu mencerahkan\n• Melembapkan kulit sehingga tampak cerah\n• Lembap\n• Halus\n• Lembut",
+      "ingredients": "Aqua, Niacinamide, Glycerin, Glyceryl Stearate, Octyl Methoxycinnamate, CI 77891, Propylene Glycol, Dicaprylyl Carbonate, Cetyl Alcohol, Phenoxyethanol, Ceteareth-20, Sodium Polyacrylate, Ceteareth-12, Cetearyl Alcohol, Cetyl Palmitate, Isononyl Isononancate, Disodium EDTA, Allantoin, BHT, Polyhydroxystearic Acid, Triethoxycaprylylsilane, Silica, Aluminum Hydroxide, Tocopheryl Acetate, CI 77492, CI 77491.",
+      "howToUse": "Oleskan setelah penggunaan day cream. Gunakan 10 menit sebelum keluar rumah pada pagi atau siang hari. Ulangi penggunaan setiap 2–3 jam sekali."
     },
     {
       "id": "sunblock-spf-30-15-gr",
@@ -638,7 +862,11 @@
       "image": "https://tokosr12.vercel.app/products/sunblock-spf-30-15-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melindungi kulit dari paparan sinar UV\n• Membantu melembapkan kulit\n• Membantu mencerahkan kulit sehingga tampak lebih bersih\n• Cerah\n• Halus\n• Lembut",
+      "ingredients": "Aqua, Octyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Olive (Olea Europaea) Oil, Stearic Acid, Benzophenone-3, Dimethicone, Niacinamide, Glycerin, Cetyl Alcohol, Glyceryl Stearate, Paraffinum Liquidum, Propylene Glycol, Phenoxyethanol, Ceteareth-20, Titanium Dioxide, Ceteareth-12, Cetearyl Alcohol, Cetyl Palmitate, Disodium EDTA, Parfum, Triethanolamine, BHT, Tocopheryl Acetate.",
+      "howToUse": "Oleskan setelah penggunaan day cream. Gunakan 10 menit sebelum keluar rumah pada pagi atau siang hari. Ulangi penggunaan setiap 2–3 jam sekali."
     },
     {
       "id": "sunscreen-gel-spf-50-pa-30-gr",
@@ -649,7 +877,11 @@
       "image": "https://tokosr12.vercel.app/products/sunscreen-gel-spf-50-pa-30-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Melindungi kulit dari UVA & UVB, mencerahkan kulit kusam, melembapkan, meredakan jerawat, serta memperbaiki skin barrier. Ringan, non-comedogenic, tanpa whitecast, dan aman untuk kulit sensitif.",
+      "ingredients": "Aqua, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Octocrylene, Lecithin, Butylene Glycol, Niacinamide, Glycerin, Centella Asiatica Extract, Aloe Barbadensis Leaf Juice, Phenoxyethanol, Sodium Polyacrylate, Sodium Ascorbyl Phosphate, Hydrolyzed Collagen, Poria Cocos Extract, Chlorella Vulgaris Extract, 8x Hyaluronic Acid, Ethylhexylglycerin, Disodium EDTA. (Bebas alkohol dan bebas parfum).",
+      "howToUse": "Oleskan merata pada wajah dan leher 15 menit sebelum beraktivitas."
     },
     {
       "id": "toner-chamomile-60-ml",
@@ -660,7 +892,11 @@
       "image": "https://tokosr12.vercel.app/products/toner-chamomile-60-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Menyegarkan kulit wajah, membersihkan sisa kotoran/makeup yang tertinggal, melembapkan, serta meredakan kemerahan, iritasi, atau peradangan akibat jerawat berkat efek menenangkan (shooting) dari ekstrak Chamomile.",
+      "ingredients": "Aqua, Alcohol, Chamomilla Recutita (Matricaria) Flower Extract, Phenoxyethanol, PEG-40 Hydrogenated Castor Oil, CI 42090.",
+      "howToUse": "Tuangkan toner secukupnya pada kapas kosmetik, lalu usapkan atau tepuk-tepuk secara perlahan ke seluruh wajah yang telah dibersihkan. Gunakan rutin setiap pagi dan malam hari."
     },
     {
       "id": "toner-aha-60-ml",
@@ -671,7 +907,11 @@
       "image": "https://tokosr12.vercel.app/products/toner-aha-60-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melembapkan\n• Menyegarkan kulit\n• Membantu mengangkat sel kulit mati\n• Membersihkan sisa kosmetik atau kotoran pada wajah sehingga wajah menjadi lebih bersih\n• Segar\n• Halus\n• Lembut",
+      "ingredients": "Aqua, Potassium Hydroxide, Alcohol, Glycolic Acid, Lactic Acid, Phenoxyethanol, Arginine, Allantoin, Disodium EDTA, CI 42090, CI 19140.",
+      "howToUse": "Tuangkan toner pada kapas secukupnya, kemudian usapkan pada kulit wajah yang telah dibersihkan. Gunakan 2x sehari sebelum menggunakan krim wajah. Pada pagi hari, gunakan sunscreen 10 menit sebelum keluar rumah setelah penggunaan day cream selama penggunaan toner AHA."
     },
     {
       "id": "toner-bha-60-ml",
@@ -682,7 +922,11 @@
       "image": "https://tokosr12.vercel.app/products/toner-bha-60-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melembapkan\n• Menyegarkan kulit\n• Membantu mengangkat sel kulit mati\n• Membersihkan sisa kosmetik atau kotoran pada wajah sehingga wajah menjadi lebih bersih\n• Segar\n• Halus\n• Lembut",
+      "ingredients": "Aqua, Alcohol, Salicylic Acid, Acacia, Phenoxyethanol, Allantoin, Disodium EDTA, CI 42090.",
+      "howToUse": "Tuangkan toner pada kapas secukupnya, kemudian usapkan pada kulit wajah yang telah dibersihkan. Gunakan 2x sehari sebelum menggunakan krim wajah. Pada pagi hari, gunakan sunscreen 10 menit sebelum keluar rumah setelah penggunaan day cream."
     },
     {
       "id": "ceramide-skin-barries-care-18-gr",
@@ -693,7 +937,11 @@
       "image": "https://tokosr12.vercel.app/products/ceramide-skin-barries-care-18-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melembapkan kulit\n• Membantu mencerahkan\n• Membantu menjaga\n• Merawat skin barrier kulit",
+      "ingredients": "Aqua, Centella Asiatica Leaf Water, Butylene Glycol, Niacinamide, Glycerin, Dimethicone, Diethylhexyl Carbonate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Propanediol, 1,2-Hexanediol, Linum Usitatissimum Seed Extract, Propylene Glycol, Squalane, Bisabolol, Chamomilla Recutita (Matricaria) Flower Extract, PEG-7 Glyceryl Cocoate, Aminobutyric Acid, Polysorbate 60, Caprylhydroxamic Acid, Pentylene Glycol, Dimethicone/Vinyl Dimethicone Crosspolymer, Carbomer, Phenoxyethanol, Amodimethicone, Sodium Hydroxide, Disodium EDTA, Sorbitan Isostearate, Triethanolamine, Citric Acid, Ceramide NP, Sodium Benzoate, Potassium Sorbate.",
+      "howToUse": "Oleskan secukupnya pada kulit wajah yang telah dibersihkan secara merata. Dapat digunakan pada pagi dan malam hari."
     },
     {
       "id": "dna-salmon-package",
@@ -704,7 +952,11 @@
       "image": "https://tokosr12.vercel.app/products/dna-salmon-package.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Membantu regenerasi kulit, memudarkan flek hitam/bekas jerawat, memperbaiki skin barrier yang rusak, meningkatkan elastisitas, serta mencerahkan wajah kusam. Aman untuk bumil, busui, dan remaja usia 12 tahun ke atas.",
+      "ingredients": "Mengandung bahan aktif utama DNA Salmon Extract, 9x Ceramide, Hyaluronic Acid, dan kolagen. Paket terdiri dari: Soap Bar DNA Salmon (60 gr / NA18230500673), Toner DNA Salmon (70 ml / NA18231209112), Day Cream DNA Salmon (12 gr / NA18230114236), Night Cream DNA Salmon (12 gr / NA18230114232)",
+      "howToUse": "Pagi: Soap Bar -> Toner -> Day Cream (Bisa ditambah sunscreen sebelum day cream). Malam: Soap Bar -> Toner -> Night Cream (Bisa ditambah serum setelah toner)."
     },
     {
       "id": "toner-acne-60-ml",
@@ -715,7 +967,11 @@
       "image": "https://tokosr12.vercel.app/products/toner-acne-60-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mengatasi jerawat\n• Melembapkan\n• Membantu mengurangi iritasi\n• Inflamasi\n• Mengurangi minyak berlebih\n• Membantu memudarkan bekas jerawat",
+      "ingredients": "Aqua, Alcohol, Glycerin Linoleate and PEG-12 Oleate, Zinc Chloride, Hydrolyzed Wheat Protein, Cinnamomum Zeylanicum Bark Extract, Thymus Vulgaris (Thyme) Extract, Malva Sylvestris Flower/Leaf/Stem Extract, Hamamelis Virginiana (Witch Hazel) Leaf Extract.",
+      "howToUse": "Kocok terlebih dahulu. Tuangkan acne toner pada kapas secukupnya, usapkan pada wajah secara perlahan dan merata, lalu tepuk-tepuk pada bagian berjerawat. Gunakan 2x sehari sebelum menggunakan cream wajah."
     },
     {
       "id": "go-milku-original-200-gr",
@@ -726,7 +982,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-original-200-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-original-600-gr",
@@ -737,7 +997,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-original-600-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-cokelat-200-gr-52-500",
@@ -748,7 +1012,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-cokelat-200-gr-52-500.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-cokelat-600-gr",
@@ -759,7 +1027,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-cokelat-600-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-stroberi-200-gr",
@@ -770,7 +1042,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-stroberi-200-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-stroberi-600-gr",
@@ -781,7 +1057,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-stroberi-600-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-gold-200-gr",
@@ -792,7 +1072,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-gold-200-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• 0% Kolesterol: Susu rendah lemak dengan kadar 0% kolesterol\n• Daun Kelor: Diperkaya Daun Kelor sebagai antioksidan, sumber vitamin dan mineral\n• Vitamin Neurotropik: Kandungan Vitamin Neurotropik Vitamin B1, B6 dan B12 membantu meningkatkan kesehatan syaraf\n• Calgo: Diperkaya Calgo yang bersumber dari Fish Bone Salmon (Tulang Ikan Salmon) sebagai sumber tinggi kalsium\n• Ekstrak Ikan Gabus: Diperkaya dengan Ekstrak Ikan Gabus sebagai sumber protein\n• Ekstrak Jahe: Dilengkapi Ekstrak Jahe membantu mengurangi nyeri pada tulang dan persendian\n• Ekstrak Bawang Putih: Kombinasi Ekstrak Bawang Putih dapat membantu melancarkan aliran darah",
+      "ingredients": "Susu Kambing Etawa, Daun Kelor, Ekstrak Ikan Gabus, Ekstrak Jahe, Ekstrak Bawang Putih, Fish Bone Salmon (Calgo), Vitamin Neurotropik (B1, B6, B12).",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-gold-600-gr",
@@ -803,7 +1087,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-gold-600-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• 0% Kolesterol: Susu rendah lemak dengan kadar 0% kolesterol\n• Daun Kelor: Diperkaya Daun Kelor sebagai antioksidan, sumber vitamin dan mineral\n• Vitamin Neurotropik: Kandungan Vitamin Neurotropik Vitamin B1, B6 dan B12 membantu meningkatkan kesehatan syaraf\n• Calgo: Diperkaya Calgo yang bersumber dari Fish Bone Salmon (Tulang Ikan Salmon) sebagai sumber tinggi kalsium\n• Ekstrak Ikan Gabus: Diperkaya dengan Ekstrak Ikan Gabus sebagai sumber protein\n• Ekstrak Jahe: Dilengkapi Ekstrak Jahe membantu mengurangi nyeri pada tulang dan persendian\n• Ekstrak Bawang Putih: Kombinasi Ekstrak Bawang Putih dapat membantu melancarkan aliran darah",
+      "ingredients": "Susu Kambing Etawa, Daun Kelor, Ekstrak Ikan Gabus, Ekstrak Jahe, Ekstrak Bawang Putih, Fish Bone Salmon (Calgo), Vitamin Neurotropik (B1, B6, B12).",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-pouch",
@@ -814,7 +1102,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-pouch.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "Meningkatkan kesehatan tulang, mengurangi kolesterol darah, menyehatkan lambung, mengobati penyakit saluran pernafasan, untuk kesehatan jantung, mengencangkan kulit, mencegah dan mengurangi jerawat. (Disamakan untuk semua varian)",
+      "ingredients": "Susu Kambing Etawa, Ikan Gabus, Daun Kelor, Madu. (Disamakan untuk semua varian)",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "go-milku-gold-pouch",
@@ -825,7 +1117,11 @@
       "image": "https://tokosr12.vercel.app/products/go-milku-gold-pouch.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• 0% Kolesterol: Susu rendah lemak dengan kadar 0% kolesterol\n• Daun Kelor: Diperkaya Daun Kelor sebagai antioksidan, sumber vitamin dan mineral\n• Vitamin Neurotropik: Kandungan Vitamin Neurotropik Vitamin B1, B6 dan B12 membantu meningkatkan kesehatan syaraf\n• Calgo: Diperkaya Calgo yang bersumber dari Fish Bone Salmon (Tulang Ikan Salmon) sebagai sumber tinggi kalsium\n• Ekstrak Ikan Gabus: Diperkaya dengan Ekstrak Ikan Gabus sebagai sumber protein\n• Ekstrak Jahe: Dilengkapi Ekstrak Jahe membantu mengurangi nyeri pada tulang dan persendian\n• Ekstrak Bawang Putih: Kombinasi Ekstrak Bawang Putih dapat membantu melancarkan aliran darah",
+      "ingredients": "Susu Kambing Etawa, Daun Kelor, Ekstrak Ikan Gabus, Ekstrak Jahe, Ekstrak Bawang Putih, Fish Bone Salmon (Calgo), Vitamin Neurotropik (B1, B6, B12).",
+      "howToUse": "Cuci tangan sebelum mempersiapkan susu. Cuci semua peralatan (sendok dan gelas). Tuangkan 150ml air panas ke dalam gelas. Masukkan 2 sendok takar (20 gram). Aduk hingga larut merata dan siap dihidangkan. Habiskan dalam jangka waktu maksimal 1 jam dari pembuatan."
     },
     {
       "id": "lemonkuh-500-ml",
@@ -836,7 +1132,11 @@
       "image": "https://tokosr12.vercel.app/products/lemonkuh-500-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membakar kalori\n• Mencegah anemia\n• Mendetoksifikasi tubuh\n• Membersihkan darah\n• Menyehatkan jantung\n• Mengatasi pendarahan\n• Melancarkan pencernaan\n• Mengurangi pembengkakan\n• Menyembuhkan sakit kolera\n• Mengatasi sakit tenggorokan\n• Meningkatkan sistem kekebalan tubuh\n• Meminimalisir risiko stroke iskemik",
+      "ingredients": "Sari Buah Lemon 99,96%, Pengawet Natrium Benzoat.",
+      "howToUse": "Campurkan 4 takar tutup botol atau setara dengan 400 ml Lemonkuh dengan 2000 ml air hangat. Dapat disajikan hangat atau dingin."
     },
     {
       "id": "manja-sr12-kapsul-60-caps",
@@ -847,7 +1147,11 @@
       "image": "https://tokosr12.vercel.app/products/manja-sr12-kapsul-60-caps.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mengurangi lendir yang berlebihan pada daerah kewanitaan",
+      "ingredients": "Tiap kapsul mengandung ekstrak manjakani (Quercus infectoria fructus) 500 mg.",
+      "howToUse": "Dewasa: 3 × 1 butir sehari."
     },
     {
       "id": "manja-sr12-pill-60-butir",
@@ -858,7 +1162,11 @@
       "image": "https://tokosr12.vercel.app/products/manja-sr12-pill-60-butir.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mengurangi lendir yang berlebihan pada daerah kewanitaan",
+      "ingredients": "Tiap kapsul mengandung ekstrak manjakani (Quercus infectoria fructus) 500 mg.",
+      "howToUse": "Dewasa: 3 × 1 butir per hari."
     },
     {
       "id": "miss-manja-paket-manja-wash-manja-spray",
@@ -869,7 +1177,11 @@
       "image": "https://tokosr12.vercel.app/products/miss-manja-paket-manja-wash-manja-spray.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mengurangi jamur/bakteri\n• Mengatasi keputihan\n• Mengencangkan area intim\n• Menghilangkan gatal\n• Mencerahkan kulit\n• Membantu mengurangi bau tak sedap",
+      "ingredients": "Aqua, Niacinamide, Propylene Glycol, PEG-40 Hydrogenated Castor Oil, dan komponen lainnya.",
+      "howToUse": "Semprotkan pada area kewanitaan bagian luar dalam kondisi kering. Gunakan 2 kali sehari setelah mandi."
     },
     {
       "id": "madu-hutan-baduy-140-gr",
@@ -880,7 +1192,11 @@
       "image": "https://tokosr12.vercel.app/products/madu-hutan-baduy-140-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Menjaga kondisi tubuh\n• Mencegah osteoporosis\n• Mencegah sel darah putih\n• Menambah stamina tubuh\n• Memperkuat sel darah putih\n• Mencegah infeksi pada luka\n• Membantu menyembuhkan asam urat\n• Rematik\n• Kurang darah\n• Batu ginjal",
+      "ingredients": "Madu Asli.",
+      "howToUse": "Dewasa: 3 × 2 sendok makan/hari.\nAnak-anak: 2 × 2 sendok teh/hari."
     },
     {
       "id": "madu-hutan-baduy-300-gr",
@@ -891,7 +1207,11 @@
       "image": "https://tokosr12.vercel.app/products/madu-hutan-baduy-300-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Menjaga kondisi tubuh\n• Mencegah osteoporosis\n• Mencegah sel darah putih\n• Menambah stamina tubuh\n• Memperkuat sel darah putih\n• Mencegah infeksi pada luka\n• Membantu menyembuhkan asam urat\n• Rematik\n• Kurang darah\n• Batu ginjal",
+      "ingredients": "Madu Asli.",
+      "howToUse": "Dewasa: 3 × 2 sendok makan/hari.\nAnak-anak: 2 × 2 sendok teh/hari."
     },
     {
       "id": "salimah-slim-60-caps",
@@ -902,7 +1222,11 @@
       "image": "https://tokosr12.vercel.app/products/salimah-slim-60-caps.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu melancarkan saluran pencernaan\n• Saluran kemih\n• Membantu menurunkan berat badan\n• Mengurangi rasa lapar\n• Mengurangi kolesterol pada tubuh\n• Membantu meluruhkan lemak pada tubuh",
+      "ingredients": "Zingiber Purpurei Rhizoma 250 mg, Guazuma Ulmifolia Folium 250 mg.",
+      "howToUse": "3 × 3 kapsul sehari. Sebaiknya diminum 1 jam sesudah makan."
     },
     {
       "id": "sari-kurma-350-gr",
@@ -913,7 +1237,11 @@
       "image": "https://tokosr12.vercel.app/products/sari-kurma-350-gr.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Sebagai sumber energi bagi orang berpuasa\n• Membantu mengatasi\n• Mencegah anemia\n• Membantu menurunkan hipertensi\n• Sebagai antioksidan alami tubuh\n• Sebagai anti-tumor\n• Aman untuk penderita diabetes\n• Sebagai anti-inflamasi\n• Membantu metabolisme anak\n• Melancarkan pencernaan\n• Membantu pertumbuhan tulang\n• Meningkatkan stamina tubuh",
+      "ingredients": "Sari buah kurma 94,94%, Fruktosa, Natrium Benzoat.",
+      "howToUse": "Dapat dikonsumsi dengan roti atau dicampurkan dengan air dingin, teh, dan susu."
     },
     {
       "id": "vco-oil-100-ml",
@@ -924,7 +1252,11 @@
       "image": "https://tokosr12.vercel.app/products/vco-oil-100-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Anti-inflamasi\n• Membantu menghilangkan ketombe\n• Anti-jamur\n• Anti-bakteri\n• Dapat digunakan sebagai campuran masakan\n• Membantu mengurangi rasa gatal\n• Membantu mengatasi beruntusan pada kulit\n• Membantu menyembuhkan luka lecet\n• Membantu menyembuhkan luka bakar",
+      "ingredients": "Minyak Kelapa (VCO) 100%.",
+      "howToUse": "3 × 1–2 sesudah makan."
     },
     {
       "id": "vco-oil-250-ml",
@@ -935,7 +1267,11 @@
       "image": "https://tokosr12.vercel.app/products/vco-oil-250-ml.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Anti-inflamasi\n• Membantu menghilangkan ketombe\n• Anti-jamur\n• Anti-bakteri\n• Dapat digunakan sebagai campuran masakan\n• Membantu mengurangi rasa gatal\n• Membantu mengatasi beruntusan pada kulit\n• Membantu menyembuhkan luka lecet\n• Membantu menyembuhkan luka bakar",
+      "ingredients": "Minyak Kelapa (VCO) 100%.",
+      "howToUse": "3 × 1–2 sesudah makan."
     },
     {
       "id": "vco-kapsul-100-caps",
@@ -946,7 +1282,11 @@
       "image": "https://tokosr12.vercel.app/products/vco-kapsul-100-caps.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Sebagai lemak tambahan MPASI\n• Membantu menyehatkan pencernaan\n• Menstimulasi sistem kekebalan tubuh\n• Mendukung kesehatan janin dalam kandungan\n• Membantu produksi ASI pada ibu menyusui",
+      "ingredients": "Minyak Kelapa (VCO) 500 mg.",
+      "howToUse": "3 × 1–2 sesudah makan."
     },
     {
       "id": "habbatussauda-120-kapsul",
@@ -957,7 +1297,11 @@
       "image": "https://tokosr12.vercel.app/products/habbatussauda-120-kapsul.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Memelihara daya tahan tubuh\n• Mengatasi kolesterol\n• Mengontrol gula\n• Tekanan darah\n• Sebagai antioksidan",
+      "ingredients": "Habbatussauda Habasyi murni 100%.",
+      "howToUse": "Dosis disesuaikan berdasarkan usia dan kebutuhan terapi kesehatan."
     },
     {
       "id": "stevia-sr12-natural-sweetener-15-ml-new-product",
@@ -968,7 +1312,11 @@
       "image": "https://tokosr12.vercel.app/products/stevia-sr12-natural-sweetener-15-ml-new-product.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu memberikan rasa manis alami\n• Membantu melawan radikal bebas\n• Membantu menurunkan tekanan darah tinggi secara alami",
+      "ingredients": "Pemanis alami glikosida steviol (55%) / Glycosyde Steviol Natural Sweetener (55%).",
+      "howToUse": "Tambahkan 1–2 tetes atau sesuai selera ke dalam teh, kopi, susu, makanan, atau minuman lainnya."
     },
     {
       "id": "skinsane-majie-face-body-bar-soap-80g",
@@ -979,7 +1327,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-majie-soap.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Anti-aging\n• Mencerahkan kulit\n• Meningkatkan elastisitas kulit\n• Membuat kulit lebih lembap\n• Kenyal\n• Mencegah kekeringan pada kulit\n• Membantu merawat tekstur kulit yang tidak merata/bopeng/kasar",
+      "ingredients": "Sucrose, Aqua, Stearic Acid, Alcohol, Cocos Nucifera Oil, Triethanolamine, Glycerin, Sorbitol, Propylene Glycol, Sodium Hydroxide, Cocamidopropyl Betaine, Sodium Laureth Sulfate, Niacinamide, Kojic Acid, Perfume, PEG-40 Hydrogenated Castor Oil, Linoleic Acid, Acid Citrate, Glutathione, Hydrolyzed Collagen, Oleic Acid, Butylene Glycol, Glycyrrhiza Uralensis Root Extract, BHT, Palmitic Acid, 1,2-Hexanediol, Allantoin, DNA Sodium, Linolenic Acid, CI 42090, Natrium Lauroyl Lactylate, Tocopherol, Ceramide NP, Phytosphingosine, Ceramide AP.",
+      "howToUse": "Basahi kulit dengan air, usap Bar Soap hingga berbusa, lalu bilas dengan air bersih."
     },
     {
       "id": "skinsane-sicad-face-body-bar-soap-80g",
@@ -990,7 +1342,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-sicad-soap.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mencerahkan kulit\n• Menghilangkan noda bekas luka/jerawat\n• Mengatasi dark spot seperti flek hitam/hiperpigmentasi",
+      "ingredients": "Sucrose, Stearic Acid, Aqua, Alcohol, Cocos Nucifera Oil, Triethanolamine, Calcium Carbonate, Glycerin, Sorbitol, Propylene Glycol, Sodium Hydroxide, Sodium Laureth Sulfate, Glycolic Acid, Niacinamide, Perfume, Leaf Oil, Melaleuca Alternifolia, PEG-40 Hydrogenated Castor Oil, Salicylic Acid, Amylopectin, Dextrin, Xanthan Gum, Citric Acid, CI 16255, BHT, CI 19140, CI 42090, Sodium Chloride, Sodium Sulfate.",
+      "howToUse": "Basahi kulit dengan air, usap Bar Soap hingga berbusa, lalu bilas dengan air bersih."
     },
     {
       "id": "skinsane-sactea-face-body-bar-soap-80g",
@@ -1001,7 +1357,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-sactea-soap.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Membantu mengatasi jerawat\n• Membantu mengatasi noda bekas jerawat/mengeringkan jerawat\n• Melembapkan\n• Mencerahkan kulit",
+      "ingredients": "Sucrose, Stearic Acid, Aqua, Alcohol, Cocos Nucifera Oil, Triethanolamine, Calcium Carbonate, Glycerin, Sorbitol, Propylene Glycol, Sodium Hydroxide, Sodium Laureth Sulfate, Glycolic Acid, Niacinamide, Perfume, Leaf Oil, Melaleuca Alternifolia, PEG-40 Hydrogenated Castor Oil, Salicylic Acid, Amylopectin, Dextrin, Xanthan Gum, Citric Acid, CI 16255, BHT, CI 19140, CI 42090, Sodium Chloride, Sodium Sulfate.",
+      "howToUse": "Basahi kulit dengan air, usap Bar Soap hingga berbusa, lalu bilas dengan air bersih."
     },
     {
       "id": "skinsane-sweet-berry-crush-body-serum-250ml",
@@ -1012,7 +1372,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-sweet-berry-serum.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Mencerahkan\n• Melembapkan kulit lebih maksimal dengan aroma relaksasi yang menenangkan",
+      "ingredients": "Aqua, Isopropyl Myristate, Niacinamide, Centella Asiatica Leaf Water, Perfume, Glyceryl Stearate, PEG-100 Stearate, Propylene Glycol, Phenoxyethanol, Ethylhexylglycerin, Isopropyl Ester Copolymer PVM/MA, Allantoin, Disodium EDTA, 1,2-Hexanediol, Acid Lactate, Isopropyl Alcohol, Salicylic Acid, Amylopectin, Dextrin, CI 19140, Xanthan Gum, CI 16255, Natrium Chloride, Sodium Sulfate.",
+      "howToUse": "Aplikasikan pada kulit secara merata setelah mandi atau saat kulit membutuhkan kelembapan."
     },
     {
       "id": "skinsane-playing-at-the-garden-body-serum-250ml",
@@ -1023,7 +1387,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-playing-garden-serum.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Mencerahkan\n• Melembapkan kulit lebih maksimal dengan aroma relaksasi yang menenangkan",
+      "ingredients": "Aqua, Isopropyl Myristate, Niacinamide, Centella Asiatica Leaf Water, Perfume, Glyceryl Stearate, PEG-100 Stearate, Propylene Glycol, Phenoxyethanol, Ethylhexylglycerin, Isopropyl Ester Copolymer PVM/MA, Allantoin, Disodium EDTA, 1,2-Hexanediol, Acid Lactate, Isopropyl Alcohol, Salicylic Acid, Amylopectin, Dextrin, CI 19140, Xanthan Gum, CI 16255, Natrium Chloride, Sodium Sulfate.",
+      "howToUse": "Aplikasikan pada kulit secara merata setelah mandi atau saat kulit membutuhkan kelembapan."
     },
     {
       "id": "skinsane-i-need-me-time-body-serum-250ml",
@@ -1034,7 +1402,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-i-need-me-time-serum.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Mencerahkan\n• Melembapkan kulit lebih maksimal dengan aroma relaksasi yang menenangkan",
+      "ingredients": "Aqua, Isopropyl Myristate, Niacinamide, Centella Asiatica Leaf Water, Perfume, Glyceryl Stearate, PEG-100 Stearate, Propylene Glycol, Phenoxyethanol, Ethylhexylglycerin, Isopropyl Ester Copolymer PVM/MA, Allantoin, Disodium EDTA, 1,2-Hexanediol, Acid Lactate, Isopropyl Alcohol, Salicylic Acid, Amylopectin, Dextrin, CI 19140, Xanthan Gum, CI 16255, Natrium Chloride, Sodium Sulfate.",
+      "howToUse": "Aplikasikan pada kulit secara merata setelah mandi atau saat kulit membutuhkan kelembapan."
     },
     {
       "id": "skinsane-playing-at-the-garden-body-scrub-250gr",
@@ -1045,7 +1417,11 @@
       "image": "https://tokosr12.vercel.app/products/skinsane-playing-garden-scrub.png",
       "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:00:26.999Z"
+      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "soldOut": false,
+      "benefits": "• Body scrub dengan aroma relaksasi menenangkan yang membantu mencerahkan\n• Menghaluskan\n• Mengangkat sel kulit mati sehingga kulit terasa lembap\n• Halus\n• Cerah",
+      "ingredients": "Aqua, Paraffinum Liquidum, Kaolin, Corn Starch (Zea Mays), Glycerin, Niacinamide, Silica, Centella Asiatica Leaf Water, Glyceryl Stearate, Perfume, PEG-100 Stearate, Titanium Dioxide, Phenoxyethanol, Cetyl Alcohol, Stearic Acid, Ethylhexylglycerin, Disodium EDTA, 1,2-Hexanediol, Tocopheryl Acetate, Lactic Acid, Salicylic Acid, Amylopectin, Dextrin, CI 19140, Xanthan Gum, CI 16255, Sodium Chloride, Sodium Sulfate.",
+      "howToUse": "Aplikasikan pada permukaan kulit, diamkan 1–2 menit, lalu pijat dan gosok secara lembut hingga kotoran terangkat. Kemudian bilas dengan air hingga bersih."
     }
   ]
 }
