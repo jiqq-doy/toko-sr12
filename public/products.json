@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T13:45:57.792Z",
+  "lastUpdated": "2026-11-13T13:46:24.400Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -427,9 +427,9 @@
       "price": 82000,
       "description": "• Membantu membersihkan gigi\n• Membantu menjaga kebersihan gigi",
       "image": "https://tokosr12.vercel.app/products/pasta-gigi-siwak-sirih-170-gr.png",
-      "status": "ready",
+      "status": "soldout",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T13:45:57.791Z"
+      "updatedAt": "2026-11-13T13:46:24.397Z"
     },
     {
       "id": "booperi-parfum-misteriosa-30-ml",
