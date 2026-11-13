@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T10:52:06.767Z",
+  "lastUpdated": "2026-11-13T13:24:19.167Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -361,9 +361,9 @@
       "price": 37000,
       "description": "â€¢ Membantu melembutkan rambut sehingga kulit kepala\nâ€¢ Rambut menjadi bersih\nâ€¢ Segar",
       "image": "https://tokosr12.vercel.app/products/alorise-shampoo-100-ml.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T10:52:04.824Z"
+      "updatedAt": "2026-11-13T13:24:19.154Z"
     },
     {
       "id": "hair-tonic-sr12-100-ml",
