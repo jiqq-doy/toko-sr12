@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T16:55:59.816Z",
+  "lastUpdated": "2026-11-13T16:56:10.744Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -35,9 +35,9 @@
       "price": 23000,
       "description": "Membantu mencerahkan, membersihkan dan membuat kulit terasa halus dan lembut.",
       "image": "https://tokosr12.vercel.app/products/coffee-soap-v2.png",
-      "status": "ready",
+      "status": "soldout",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T16:36:29.620Z",
+      "updatedAt": "2026-11-13T16:56:10.743Z",
       "soldOut": false,
       "benefits": "Membantu mencerahkan, membersihkan dan membuat kulit terasa halus dan lembut.",
       "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbital, Coffea Arabica Seed Powder, Parfum, BHT.",
