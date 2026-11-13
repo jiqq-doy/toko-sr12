@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T16:56:20.707Z",
+  "lastUpdated": "2026-11-13T16:56:25.827Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -50,9 +50,9 @@
       "price": 25000,
       "description": "Membersihkan, melembabkan dan membantu mencerahkan kulit",
       "image": "https://tokosr12.vercel.app/products/honey-soap-v2.png",
-      "status": "soldout",
+      "status": "ready",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T16:56:12.535Z",
+      "updatedAt": "2026-11-13T16:56:25.826Z",
       "soldOut": false,
       "benefits": "Membersihkan, melembabkan dan membantu mencerahkan kulit",
       "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Stearic Acid, Alcohol Denat, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Sorbitol, Parfum, Honey (Mel), BHT, CI 12480.",
