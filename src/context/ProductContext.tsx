@@ -17,24 +17,25 @@ const ProductContext = createContext<ProductContextType>({
   isLoading: false,
 });
 
-// Try these sources in order: local /products.json → GitHub raw fallback
 const GITHUB_PRODUCTS_URL = 'https://raw.githubusercontent.com/jiqq-doy/toko-sr12/main/public/products.json';
-const FIREBASE_STATUS_KEY = 'sr12_firebase_db_url'; // admin saves this via localStorage (different origin, can't share — use hardcoded fallback)
 
-// ⚠️ Paste your Firebase Realtime Database URL here (from Admin Dashboard → Pengaturan → Firebase URL)
-// Example: 'https://sr12-xxxxxx-default-rtdb.firebaseio.com'
-const FIREBASE_DB_URL = ''; // Will be overridden by /products.json soldOutIds if available
+// Paste your Firebase Realtime Database URL here if using Firebase (optional)
+const FIREBASE_DB_URL = '';
 
 export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [products, setProducts] = useState<Product[]>(initialProducts);
-  const [categories] = useState<string[]>(initialCategories);
+  const [categories, setCategories] = useState<string[]>(initialCategories);
   const [isLoading, setIsLoading] = useState(false);
 
   const applyStatus = (baseProds: Product[], soldOutIds: string[]): Product[] =>
-    baseProds.map(p => ({ ...p, soldOut: soldOutIds.includes(p.id), status: soldOutIds.includes(p.id) ? 'soldout' : 'ready' }));
+    baseProds.map(p => ({
+      ...p,
+      soldOut: soldOutIds.includes(p.id),
+      status: soldOutIds.includes(p.id) ? 'soldout' : 'ready'
+    }));
 
   const fetchStatus = async () => {
-    // 1. Try Firebase Realtime Database (fastest real-time, set by admin)
+    // 1. Try Firebase Realtime Database if configured
     if (FIREBASE_DB_URL) {
       try {
         const fbRes = await fetch(FIREBASE_DB_URL.replace(/\/$/, '') + '/products-status.json?t=' + Date.now());
@@ -45,24 +46,30 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
             return;
           }
         }
-      } catch { /* continue to fallback */ }
+      } catch { /* continue to local products.json */ }
     }
 
-    // 2. Try /products.json served by Vercel (updated on every push)
+    // 2. Try /products.json (served by local Vite & Vercel)
     try {
       const res = await fetch('/products.json?t=' + Date.now());
       if (res.ok) {
         const data = await res.json();
-        if (data?.products && Array.isArray(data.products)) {
-          setProducts(data.products.map((p: Product) => ({
-            ...initialProducts.find(ip => ip.id === p.id) || p,
-            soldOut: p.soldOut || p.status === 'soldout',
-            status: p.status,
-          })));
+        if (data?.products && Array.isArray(data.products) && data.products.length > 0) {
+          const mapped = data.products.map((p: Product) => {
+            const isSold = Boolean(p.soldOut || p.status === 'soldout');
+            return {
+              ...p,
+              soldOut: isSold,
+              status: isSold ? 'soldout' : 'ready'
+            };
+          });
+          setProducts(mapped);
+          if (data.categories && Array.isArray(data.categories)) {
+            setCategories(data.categories);
+          }
           return;
         }
-        // Also handle products-status format
-        if (data?.soldOutIds) {
+        if (data?.soldOutIds && Array.isArray(data.soldOutIds)) {
           setProducts(applyStatus(initialProducts, data.soldOutIds));
           return;
         }
@@ -74,17 +81,39 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       const ghRes = await fetch(GITHUB_PRODUCTS_URL + '?t=' + Date.now());
       if (ghRes.ok) {
         const ghData = await ghRes.json();
-        if (ghData?.soldOutIds) {
+        if (ghData?.products && Array.isArray(ghData.products)) {
+          setProducts(ghData.products.map((p: Product) => {
+            const isSold = Boolean(p.soldOut || p.status === 'soldout');
+            return {
+              ...p,
+              soldOut: isSold,
+              status: isSold ? 'soldout' : 'ready'
+            };
+          }));
+        } else if (ghData?.soldOutIds) {
           setProducts(applyStatus(initialProducts, ghData.soldOutIds));
         }
       }
-    } catch { /* use initialProducts as-is */ }
+    } catch { /* use current */ }
   };
 
   useEffect(() => {
     fetchStatus();
-    const timer = setInterval(fetchStatus, 20000); // refresh every 20s
-    return () => clearInterval(timer);
+
+    // Fast polling (every 2.5s) for instant sync between admin and storefront
+    const timer = setInterval(fetchStatus, 2500);
+
+    // Instant sync when switching back to this tab
+    const handleFocus = () => fetchStatus();
+    window.addEventListener('focus', handleFocus);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') fetchStatus();
+    });
+
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener('focus', handleFocus);
+    };
   }, []);
 
   const getProduct = (id?: string) => {
@@ -106,4 +135,3 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
 };
 
 export const useProducts = () => useContext(ProductContext);
-
