@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T16:36:29.620Z",
+  "lastUpdated": "2026-11-13T16:55:59.816Z",
   "categories": [
     "Face Wash",
     "Personal Care",
@@ -20,9 +20,9 @@
       "price": 28000,
       "description": "Merupakan sabun yang terbuat dari bahan-bahan pilihan yang dapat menjadikan kulit bersih, tetap sehat dan lembap.",
       "image": "https://tokosr12.vercel.app/products/bulus-soap-v2.png",
-      "status": "ready",
+      "status": "soldout",
       "createdAt": "2026-11-13T10:00:26.999Z",
-      "updatedAt": "2026-11-13T16:36:29.619Z",
+      "updatedAt": "2026-11-13T16:55:59.813Z",
       "soldOut": false,
       "benefits": "Merupakan sabun yang terbuat dari bahan-bahan pilihan yang dapat menjadikan kulit bersih, tetap sehat dan lembap.",
       "ingredients": "Sucrose, Aqua, Cocos Nucifera Oil, Propylene Glycol, Alcohol Denat, Stearic Acid, Glycerin, Triethanolamine, Sodium Hydroxide, Sodium Laureth Sulfate, Turtle Oil, Parfum, CI 19140, CI 16255, BHT",
