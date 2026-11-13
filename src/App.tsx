@@ -7,25 +7,28 @@ import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import { ProductProvider } from './context/ProductContext';
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="flex flex-col min-h-screen font-sans">
-        <Navbar />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/produk" element={<Products />} />
-            <Route path="/produk/:id" element={<ProductDetail />} />
-            <Route path="/tentang" element={<About />} />
-            <Route path="/kontak" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <ProductProvider>
+      <Router>
+        <ScrollToTop />
+        <div className="flex flex-col min-h-screen font-sans">
+          <Navbar />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/produk" element={<Products />} />
+              <Route path="/produk/:id" element={<ProductDetail />} />
+              <Route path="/tentang" element={<About />} />
+              <Route path="/kontak" element={<Contact />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </ProductProvider>
   );
 }
 

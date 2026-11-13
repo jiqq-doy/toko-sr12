@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
-import { products, CATEGORIES } from '../data/products';
+import { useProducts } from '../context/ProductContext';
 import ProductCard from '../components/ProductCard';
 import FadeIn from '../components/animations/FadeIn';
 
 const Products = () => {
+  const { products, categories } = useProducts();
   const [searchParams, setSearchParams] = useSearchParams();
-  const initialCategory = searchParams.get('category') || CATEGORIES[0];
+  const initialCategory = searchParams.get('category') || (categories[0] || 'Face Wash');
   const initialQuery = searchParams.get('q') || '';
 
   const [activeCategory, setActiveCategory] = useState(initialCategory);
@@ -25,7 +26,7 @@ const Products = () => {
     }
   }, [searchParams]);
 
-  const allCategories = CATEGORIES;
+  const allCategories = categories.length > 0 ? categories : ['Semua'];
 
   const filteredProducts = products.filter(product => {
     if (searchQuery) {
@@ -87,7 +88,6 @@ const Products = () => {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-sr12-pink/40 rounded-full mix-blend-overlay filter blur-3xl translate-y-1/2 -translate-x-1/3"></div>
             
             <div className="relative z-10 w-full max-w-3xl">
-
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-sr12-burgundy mb-4 leading-tight">
                 Katalog Produk SR12
               </h1>
@@ -162,7 +162,7 @@ const Products = () => {
               <button
                 onClick={() => {
                   setSearchQuery('');
-                  handleCategoryChange(CATEGORIES[0]);
+                  handleCategoryChange(allCategories[0]);
                 }}
                 className="inline-flex items-center justify-center px-8 py-3.5 border border-transparent text-sm font-semibold rounded-full text-white bg-sr12-burgundy hover:bg-sr12-burgundyHover transition-colors shadow-sm"
               >

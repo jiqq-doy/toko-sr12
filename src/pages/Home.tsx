@@ -1,5 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { products, CATEGORIES } from '../data/products';
+import { CATEGORIES } from '../data/products';
+import { useProducts } from '../context/ProductContext';
 import ProductCard from '../components/ProductCard';
 import { 
   MessageCircle, ArrowRight, Sparkles, 
@@ -27,6 +28,7 @@ const getCategoryIcon = (category: string) => {
 
 const Home = () => {
   const navigate = useNavigate();
+  const { products } = useProducts();
   // Featured products selected explicitly
   const featuredProductIds = [
     'go-milku-original-200-gr',

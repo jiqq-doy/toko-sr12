@@ -8,6 +8,7 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ product }: ProductCardProps) => {
+  const isSoldOut = Boolean(product.soldOut || product.status === 'soldout');
   const formattedPrice = new Intl.NumberFormat('id-ID', {
     style: 'currency',
     currency: 'IDR',
@@ -16,22 +17,32 @@ const ProductCard = ({ product }: ProductCardProps) => {
   }).format(product.price);
 
   return (
-    <div className="bg-white/90 backdrop-blur-md rounded-[28px] shadow-[0_4px_20px_-4px_rgba(111,32,51,0.05)] hover:shadow-[0_12px_30px_-4px_rgba(111,32,51,0.1)] border border-white transition-all duration-300 group p-3 flex flex-col h-full hover:-translate-y-1">
+    <div className="bg-white/90 backdrop-blur-md rounded-[28px] shadow-[0_4px_20px_-4px_rgba(111,32,51,0.05)] hover:shadow-[0_12px_30px_-4px_rgba(111,32,51,0.1)] border border-white transition-all duration-300 group p-3 flex flex-col h-full hover:-translate-y-1 relative">
       
       {/* Image Area - Clickable to Detail */}
       <Link 
         to={`/produk/${product.id}`} 
         className="block relative bg-white rounded-[20px] overflow-hidden mb-4 p-6 flex items-center justify-center h-52 sm:h-60"
       >
-
         <img
           src={product.image}
           alt={product.name}
           loading="lazy"
-          className={`w-full h-full object-contain transition-transform duration-500 ${
+          className={`w-full h-full object-contain transition-all duration-500 ${
+            isSoldOut ? 'grayscale opacity-60' : ''
+          } ${
             product.category === 'Parfum' ? 'scale-[0.85] group-hover:scale-[0.95]' : 'group-hover:scale-110'
           } ${product.imageClassName || 'object-center'}`}
         />
+
+        {/* SOLD OUT Overlay Badge */}
+        {isSoldOut && (
+          <div className="absolute inset-0 bg-black/15 backdrop-blur-[1px] flex items-center justify-center pointer-events-none transition-all">
+            <span className="bg-[#6b1d2f] text-white text-xs sm:text-sm font-extrabold px-4 py-1.5 rounded-full tracking-wider uppercase shadow-lg border border-white/30 transform -rotate-3">
+              SOLD OUT
+            </span>
+          </div>
+        )}
       </Link>
 
       {/* Content Area */}
@@ -44,16 +55,25 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <p className="text-sr12-burgundy font-sans font-extrabold text-lg tracking-tight mb-4">{formattedPrice}</p>
         
         <div className="mt-auto pt-1">
-          <button
-            onClick={() => {
-              const message = encodeURIComponent(`Halo kak, saya mau tanya/pesan produk *${product.name}* (${formattedPrice}) yang ada di website SR12.`);
-              window.open(`https://wa.me/${STORE_CONFIG.whatsapp}?text=${message}`, '_blank');
-            }}
-            className="w-full bg-sr12-burgundy text-white py-3 rounded-[16px] font-semibold text-sm hover:bg-[#5A1829] transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
-          >
-            <MessageCircle size={18} />
-            Pesan via WA
-          </button>
+          {isSoldOut ? (
+            <button
+              disabled
+              className="w-full bg-gray-200 text-gray-500 py-3 rounded-[16px] font-semibold text-sm flex items-center justify-center gap-2 cursor-not-allowed shadow-none"
+            >
+              Stok Habis
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                const message = encodeURIComponent(`Halo kak, saya mau tanya/pesan produk *${product.name}* (${formattedPrice}) yang ada di website SR12.`);
+                window.open(`https://wa.me/${STORE_CONFIG.whatsapp}?text=${message}`, '_blank');
+              }}
+              className="w-full bg-sr12-burgundy text-white py-3 rounded-[16px] font-semibold text-sm hover:bg-[#5A1829] transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
+            >
+              <MessageCircle size={18} />
+              Pesan via WA
+            </button>
+          )}
         </div>
       </div>
 

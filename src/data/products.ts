@@ -1,4 +1,7 @@
 export interface Product {
+  soldOut?: boolean;
+  status?: 'ready' | 'soldout';
+  description?: string;
   id: string;
   name: string;
   price: number;

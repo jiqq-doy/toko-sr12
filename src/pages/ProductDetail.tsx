@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { products } from '../data/products';
+import { useProducts } from '../context/ProductContext';
 import { STORE_CONFIG } from '../config/store';
 import { MessageCircle, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
 import ProductInfoTabs from '../components/ProductInfoTabs';
@@ -9,7 +9,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const ProductDetail = () => {
   const { id } = useParams();
-  const product = products.find(p => p.id === id);
+  const { getProduct } = useProducts();
+  const product = getProduct(id);
+  const isSoldOut = Boolean(product?.soldOut || product?.status === 'soldout');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
@@ -160,21 +162,37 @@ const ProductDetail = () => {
             </h1>
 
             <div className="mb-10 w-full">
-              <p className="text-3xl sm:text-4xl font-extrabold text-sr12-burgundy mb-4">{formattedPrice}</p>
+              <div className="flex items-center gap-3 mb-4">
+                <p className="text-3xl sm:text-4xl font-extrabold text-sr12-burgundy">{formattedPrice}</p>
+                {isSoldOut && (
+                  <span className="bg-[#6b1d2f] text-white text-xs sm:text-sm font-extrabold px-3.5 py-1 rounded-full uppercase tracking-wider">
+                    SOLD OUT
+                  </span>
+                )}
+              </div>
               <p className="text-[13.5px] text-sr12-burgundy/90 font-semibold flex items-center gap-2">
                 <MessageCircle size={15} className="text-sr12-burgundy/80" />
-                Pemesanan dan pembayaran dilakukan langsung melalui WhatsApp.
+                {isSoldOut ? 'Produk ini saat ini sedang habis terjual.' : 'Pemesanan dan pembayaran dilakukan langsung melalui WhatsApp.'}
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 w-full">
-              <button 
-                onClick={handleWhatsApp}
-                className="w-full sm:flex-1 bg-sr12-burgundy text-white py-4 px-6 rounded-full font-bold hover:bg-[#5A1829] transition-all flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg hover:-translate-y-0.5"
-              >
-                <MessageCircle size={20} />
-                Tanya / Pesan via WhatsApp
-              </button>
+              {isSoldOut ? (
+                <button 
+                  disabled
+                  className="w-full sm:flex-1 bg-gray-200 text-gray-500 py-4 px-6 rounded-full font-bold cursor-not-allowed flex items-center justify-center gap-2.5 shadow-none"
+                >
+                  Stok Habis
+                </button>
+              ) : (
+                <button 
+                  onClick={handleWhatsApp}
+                  className="w-full sm:flex-1 bg-sr12-burgundy text-white py-4 px-6 rounded-full font-bold hover:bg-[#5A1829] transition-all flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                >
+                  <MessageCircle size={20} />
+                  Tanya / Pesan via WhatsApp
+                </button>
+              )}
               <button 
                 onClick={handleWhatsApp}
                 className="w-full sm:flex-1 bg-transparent text-sr12-burgundy border-2 border-sr12-burgundy/60 py-4 px-6 rounded-full font-bold hover:border-sr12-burgundy hover:bg-sr12-lightPink/80 transition-all flex items-center justify-center gap-2.5 shadow-sm"
