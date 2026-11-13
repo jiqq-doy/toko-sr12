@@ -8,27 +8,30 @@ import ProductDetail from './pages/ProductDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import { ProductProvider } from './context/ProductContext';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
-    <ProductProvider>
-      <Router>
-        <ScrollToTop />
-        <div className="flex flex-col min-h-screen font-sans">
-          <Navbar />
-          <main className="flex-grow">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/produk" element={<Products />} />
-              <Route path="/produk/:id" element={<ProductDetail />} />
-              <Route path="/tentang" element={<About />} />
-              <Route path="/kontak" element={<Contact />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </Router>
-    </ProductProvider>
+    <ErrorBoundary>
+      <ProductProvider>
+        <Router>
+          <ScrollToTop />
+          <div className="flex flex-col min-h-screen font-sans">
+            <Navbar />
+            <main className="flex-grow">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/produk" element={<Products />} />
+                <Route path="/produk/:id" element={<ProductDetail />} />
+                <Route path="/tentang" element={<About />} />
+                <Route path="/kontak" element={<Contact />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </Router>
+      </ProductProvider>
+    </ErrorBoundary>
   );
 }
 

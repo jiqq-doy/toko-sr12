@@ -26,6 +26,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
   const [products, setProducts] = useState<Product[]>(initialProducts);
   const [categories, setCategories] = useState<string[]>(initialCategories);
   const [isLoading, setIsLoading] = useState(false);
+  const lastUpdatedRef = React.useRef<string>('');
 
   const applyStatus = (baseProds: Product[], soldOutIds: string[]): Product[] =>
     baseProds.map(p => ({
@@ -54,7 +55,11 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       const res = await fetch('/products.json?t=' + Date.now());
       if (res.ok) {
         const data = await res.json();
+        if (data?.lastUpdated && data.lastUpdated === lastUpdatedRef.current) {
+          return; // No change, skip re-render
+        }
         if (data?.products && Array.isArray(data.products) && data.products.length > 0) {
+          lastUpdatedRef.current = data.lastUpdated || String(Date.now());
           const mapped = data.products.map((p: Product) => {
             const isSold = Boolean(p.soldOut || p.status === 'soldout');
             return {
@@ -81,7 +86,11 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       const ghRes = await fetch(GITHUB_PRODUCTS_URL + '?t=' + Date.now());
       if (ghRes.ok) {
         const ghData = await ghRes.json();
+        if (ghData?.lastUpdated && ghData.lastUpdated === lastUpdatedRef.current) {
+          return; // No change, skip re-render
+        }
         if (ghData?.products && Array.isArray(ghData.products)) {
+          lastUpdatedRef.current = ghData.lastUpdated || String(Date.now());
           setProducts(ghData.products.map((p: Product) => {
             const isSold = Boolean(p.soldOut || p.status === 'soldout');
             return {

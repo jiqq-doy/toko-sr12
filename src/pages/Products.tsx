@@ -28,12 +28,13 @@ const Products = () => {
 
   const allCategories = categories.length > 0 ? categories : ['Semua'];
 
-  const filteredProducts = products.filter(product => {
+  const filteredProducts = (products || []).filter(product => {
+    if (!product) return false;
     if (searchQuery) {
-      return product.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-             product.category.toLowerCase().includes(searchQuery.toLowerCase());
+      return (product.name || '').toLowerCase().includes(searchQuery.toLowerCase()) || 
+             (product.category || '').toLowerCase().includes(searchQuery.toLowerCase());
     }
-    return product.category === activeCategory;
+    return (product.category || '').trim().toLowerCase() === (activeCategory || '').trim().toLowerCase();
   });
 
   const handleCategoryChange = (category: string) => {
