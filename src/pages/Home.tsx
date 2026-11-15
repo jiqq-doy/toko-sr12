@@ -28,7 +28,8 @@ const getCategoryIcon = (category: string) => {
 
 const Home = () => {
   const navigate = useNavigate();
-  const { products } = useProducts();
+  const { products, categories } = useProducts();
+  const displayCategories = categories && categories.length > 0 ? categories : CATEGORIES;
   // Featured products selected explicitly
   const featuredProductIds = [
     'go-milku-original-200-gr',
@@ -182,7 +183,7 @@ const Home = () => {
             </div>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 lg:gap-5 justify-items-center max-w-5xl mx-auto">
-              {CATEGORIES.map((category, index) => (
+              {displayCategories.map((category, index) => (
                 <FadeIn key={category} delay={index * 0.05} direction="up" className="w-full flex justify-center">
                   <button
                     onClick={() => handleCategoryClick(category)}

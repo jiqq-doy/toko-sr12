@@ -37,8 +37,14 @@ export const STANDARD_CATEGORIES = [
 
 export const sortCategories = (cats?: string[]): string[] => {
   const set = new Set((cats || []).map(c => (c || '').trim()).filter(Boolean));
-  const standard = STANDARD_CATEGORIES.filter(c => set.has(c) || true);
-  const custom = [...set].filter(c => !STANDARD_CATEGORIES.includes(c));
+  // Preserve the canonical 10-category order, keeping Skinsane permanently at #10
+  const standard = STANDARD_CATEGORIES.filter(sc => 
+    [...set].some(c => c.toLowerCase() === sc.toLowerCase()) || true
+  );
+  // Any brand new custom category added in Admin dashboard gets appended after standard ones
+  const custom = [...set].filter(c => 
+    !STANDARD_CATEGORIES.some(sc => sc.toLowerCase() === c.toLowerCase())
+  );
   return [...standard, ...custom];
 };
 
@@ -209,28 +215,51 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
     if (Boolean(FIREBASE_DB_URL)) {
       try {
         fbEs = new EventSource(String(FIREBASE_DB_URL).replace(/\/$/, '') + '/products-status.json');
+        
+        const handleFirebaseData = (parsed: any) => {
+          if (!parsed) return;
+          const rootData = parsed.data !== undefined ? parsed.data : parsed;
+          const prods = rootData?.products || (Array.isArray(rootData) ? rootData : null);
+          
+          if (prods && Array.isArray(prods) && prods.length > 0) {
+            lastUpdatedRef.current = rootData.lastUpdated || String(Date.now());
+            setProducts(prods.map((p: Product) => {
+              const isSold = Boolean(p.soldOut || p.status === 'soldout');
+              return {
+                ...p,
+                soldOut: isSold,
+                status: isSold ? 'soldout' : 'ready'
+              };
+            }));
+            if (rootData.categories && Array.isArray(rootData.categories)) {
+              setCategories(sortCategories(rootData.categories));
+            }
+          } else if (rootData?.soldOutIds && Array.isArray(rootData.soldOutIds)) {
+            setProducts(prev => applyStatus(prev, rootData.soldOutIds));
+          } else {
+            // Any other partial update or patch, trigger fast refresh
+            fetchStatus();
+          }
+        };
+
         fbEs.addEventListener('put', (event: any) => {
           try {
-            const parsed = JSON.parse(event.data);
-            if (parsed?.data?.products && Array.isArray(parsed.data.products)) {
-              const prods = parsed.data.products;
-              lastUpdatedRef.current = parsed.data.lastUpdated || String(Date.now());
-              setProducts(prods.map((p: Product) => {
-                const isSold = Boolean(p.soldOut || p.status === 'soldout');
-                return {
-                  ...p,
-                  soldOut: isSold,
-                  status: isSold ? 'soldout' : 'ready'
-                };
-              }));
-              if (parsed.data.categories) {
-                setCategories(sortCategories(parsed.data.categories));
-              }
-            } else if (parsed?.data?.soldOutIds && Array.isArray(parsed.data.soldOutIds)) {
-              setProducts(prev => applyStatus(prev, parsed.data.soldOutIds));
-            }
+            handleFirebaseData(JSON.parse(event.data));
           } catch {}
         });
+
+        fbEs.addEventListener('patch', (event: any) => {
+          try {
+            handleFirebaseData(JSON.parse(event.data));
+          } catch {
+            fetchStatus();
+          }
+        });
+
+        fbEs.onerror = () => {
+          // Fallback to fetchStatus if SSE has a temporary glitch
+          setTimeout(fetchStatus, 1500);
+        };
       } catch {}
     }
 
