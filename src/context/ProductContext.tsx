@@ -22,9 +22,29 @@ const GITHUB_PRODUCTS_URL = 'https://raw.githubusercontent.com/jiqq-doy/toko-sr1
 // Connected Firebase Realtime Database
 const FIREBASE_DB_URL: string = 'https://admin-sr12-default-rtdb.asia-southeast1.firebasedatabase.app';
 
+export const STANDARD_CATEGORIES = [
+  "Face Wash",
+  "Toothpaste",
+  "Parfum",
+  "Body Care",
+  "Personal Care",
+  "Hair Care",
+  "Face Care",
+  "Herbal",
+  "Beauty Drink",
+  "Skinsane"
+];
+
+export const sortCategories = (cats?: string[]): string[] => {
+  const set = new Set((cats || []).map(c => (c || '').trim()).filter(Boolean));
+  const standard = STANDARD_CATEGORIES.filter(c => set.has(c) || true);
+  const custom = [...set].filter(c => !STANDARD_CATEGORIES.includes(c));
+  return [...standard, ...custom];
+};
+
 export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [products, setProducts] = useState<Product[]>(initialProducts);
-  const [categories, setCategories] = useState<string[]>(initialCategories);
+  const [categories, setCategories] = useState<string[]>(sortCategories(initialCategories));
   const [isLoading, setIsLoading] = useState(false);
   const lastUpdatedRef = React.useRef<string>('');
 
@@ -57,7 +77,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
             });
             setProducts(mapped);
             if (fbData.categories && Array.isArray(fbData.categories)) {
-              setCategories(fbData.categories);
+              setCategories(sortCategories(fbData.categories));
             }
             return;
           }
@@ -88,7 +108,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
             };
           }));
           if (ghData.categories && Array.isArray(ghData.categories)) {
-            setCategories(ghData.categories);
+            setCategories(sortCategories(ghData.categories));
           }
           return;
         } else if (ghData?.soldOutIds) {
@@ -118,7 +138,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
           });
           setProducts(mapped);
           if (data.categories && Array.isArray(data.categories)) {
-            setCategories(data.categories);
+            setCategories(sortCategories(data.categories));
           }
           return;
         }
@@ -160,7 +180,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
             };
           }));
           if (event.data.payload.categories) {
-            setCategories(event.data.payload.categories);
+            setCategories(sortCategories(event.data.payload.categories));
           }
         }
       };
@@ -204,7 +224,7 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
                 };
               }));
               if (parsed.data.categories) {
-                setCategories(parsed.data.categories);
+                setCategories(sortCategories(parsed.data.categories));
               }
             } else if (parsed?.data?.soldOutIds && Array.isArray(parsed.data.soldOutIds)) {
               setProducts(prev => applyStatus(prev, parsed.data.soldOutIds));
