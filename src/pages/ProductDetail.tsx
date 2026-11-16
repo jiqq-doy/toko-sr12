@@ -170,35 +170,28 @@ const ProductDetail = () => {
                   </span>
                 )}
               </div>
-              <p className="text-[13.5px] text-sr12-burgundy/90 font-semibold flex items-center gap-2">
-                <MessageCircle size={15} className="text-sr12-burgundy/80" />
+              <p className="text-[13.5px] text-sr12-burgundy/80 font-medium">
                 {isSoldOut ? 'Produk ini saat ini sedang habis terjual.' : 'Pemesanan dan pembayaran dilakukan langsung melalui WhatsApp.'}
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 w-full">
+            <div className="w-full">
               {isSoldOut ? (
                 <button 
                   disabled
-                  className="w-full sm:flex-1 bg-gray-200 text-gray-500 py-4 px-6 rounded-full font-bold cursor-not-allowed flex items-center justify-center gap-2.5 shadow-none"
+                  className="w-full bg-gray-200 text-gray-500 py-4 px-8 rounded-full font-bold cursor-not-allowed flex items-center justify-center gap-2.5 shadow-none"
                 >
                   Stok Habis
                 </button>
               ) : (
                 <button 
                   onClick={handleWhatsApp}
-                  className="w-full sm:flex-1 bg-sr12-burgundy text-white py-4 px-6 rounded-full font-bold hover:bg-[#5A1829] transition-all flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                  className="w-full bg-sr12-burgundy text-white py-4 px-8 rounded-full font-bold text-base hover:bg-[#561625] hover:shadow-[0_10px_28px_-4px_rgba(107,29,47,0.3)] hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] flex items-center justify-center gap-3 shadow-[0_4px_18px_rgba(107,29,47,0.2)] cursor-pointer group"
                 >
-                  <MessageCircle size={20} />
-                  Tanya / Pesan via WhatsApp
+                  <MessageCircle size={22} className="transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6" />
+                  <span className="tracking-wide">Tanya / Pesan via WhatsApp</span>
                 </button>
               )}
-              <button 
-                onClick={handleWhatsApp}
-                className="w-full sm:flex-1 bg-transparent text-sr12-burgundy border-2 border-sr12-burgundy/60 py-4 px-6 rounded-full font-bold hover:border-sr12-burgundy hover:bg-sr12-lightPink/80 transition-all flex items-center justify-center gap-2.5 shadow-sm"
-              >
-                Konsultasi Produk
-              </button>
             </div>
           </div>
         </FadeIn>

@@ -17,7 +17,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
   }).format(product.price);
 
   return (
-    <div className="bg-white/90 backdrop-blur-md rounded-[28px] shadow-[0_4px_20px_-4px_rgba(111,32,51,0.05)] hover:shadow-[0_12px_30px_-4px_rgba(111,32,51,0.1)] border border-white transition-all duration-300 group p-3 flex flex-col h-full hover:-translate-y-1 relative">
+    <div className="bg-white/90 backdrop-blur-md rounded-[28px] shadow-[0_4px_20px_-4px_rgba(111,32,51,0.05)] hover:shadow-[0_16px_36px_-6px_rgba(111,32,51,0.14)] border border-white transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] group p-3 flex flex-col h-full hover:-translate-y-1.5 relative">
       
       {/* Image Area - Clickable to Detail */}
       <Link 
@@ -28,10 +28,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
           src={product.image}
           alt={product.name}
           loading="lazy"
-          className={`w-full h-full object-contain transition-all duration-500 ${
+          className={`w-full h-full object-contain transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
             isSoldOut ? 'grayscale opacity-60' : ''
           } ${
-            product.category === 'Parfum' ? 'scale-[0.85] group-hover:scale-[0.95]' : 'group-hover:scale-110'
+            product.category === 'Parfum' ? 'scale-[0.85] group-hover:scale-[0.95]' : 'group-hover:scale-108'
           } ${product.imageClassName || 'object-center'}`}
         />
 
@@ -48,7 +48,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       {/* Content Area */}
       <div className="flex flex-col flex-1 px-2 pb-2">
         <Link to={`/produk/${product.id}`} className="block">
-          <h3 className="font-serif font-bold text-sr12-burgundy text-lg leading-snug line-clamp-2 group-hover:text-sr12-burgundyHover transition-colors">
+          <h3 className="font-serif font-bold text-sr12-burgundy text-lg leading-snug line-clamp-2 group-hover:text-sr12-burgundyHover transition-colors duration-200">
             {product.name}
           </h3>
         </Link>
@@ -68,10 +68,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 const message = encodeURIComponent(`Halo kak, saya mau tanya/pesan produk *${product.name}* (${formattedPrice}) yang ada di website SR12.`);
                 window.open(`https://wa.me/${STORE_CONFIG.whatsapp}?text=${message}`, '_blank');
               }}
-              className="w-full bg-sr12-burgundy text-white py-3 rounded-[16px] font-semibold text-sm hover:bg-[#5A1829] transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
+              className="w-full bg-sr12-burgundy text-white py-3 rounded-[16px] font-semibold text-sm hover:bg-[#5A1829] active:scale-[0.96] transition-all duration-150 ease-out flex items-center justify-center gap-2 shadow-sm hover:shadow-md cursor-pointer"
             >
-              <MessageCircle size={18} />
-              Pesan via WA
+              <MessageCircle size={18} className="transition-transform group-hover:rotate-6 duration-200" />
+              <span>Pesan via WA</span>
             </button>
           )}
         </div>
